@@ -4,7 +4,7 @@ import './index.css';
 import './colors.css';
 import { Home, Marketplace, Blog, Contact, Newsroom, Product, Discord, About, FAQ, Services } from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
