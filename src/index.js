@@ -4,11 +4,10 @@ import './index.css';
 import './colors.css';
 import { Home, Marketplace, Blog, Contact, Newsroom, Product, Discord, About, FAQ } from './App';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, HashRouter } from 'react-router-dom';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+function App() {
+  <HashRouter>
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,6 +21,13 @@ root.render(
         <Route path="/discord" element={<Discord />} />
       </Routes>
     </Router>
+  </HashRouter>
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
   </React.StrictMode>
 );
 
