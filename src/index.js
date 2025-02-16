@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Route, Routes, HashRouter } from 'react-router-dom';
 
 
+
 function App() {
   <HashRouter>
       <Routes>
