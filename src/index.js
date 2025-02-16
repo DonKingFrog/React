@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/marketplace" element={<Marketplace />} />
@@ -21,7 +21,7 @@ root.render(
         <Route path="/faq" element={<FAQ />} />
         <Route path="/discord" element={<Discord />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
