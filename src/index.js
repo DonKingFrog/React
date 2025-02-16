@@ -8,7 +8,6 @@ import { HashRouter as Router, Route, Routes, HashRouter } from 'react-router-do
 
 function App() {
   <HashRouter>
-    <Router>
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="/marketplace" element={<Marketplace />} />
@@ -20,7 +19,6 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/discord" element={<Discord />} />
       </Routes>
-    </Router>
   </HashRouter>
 }
 
