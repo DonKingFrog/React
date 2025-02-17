@@ -10,7 +10,7 @@ window.$docsify = {
 
 export const Routes = () => {
     return (
-        <Router>
+        <Router basename="/react">
             <Switch>
                 <Route exact path="/" element={<HomePage />} />
                 <Route exact path="/marketplace" element={<MarketplacePage />} />
