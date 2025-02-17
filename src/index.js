@@ -9,17 +9,17 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-  <Router basename='/react'>
+  <Router>
     <Routes>
-      <Route path="" element={<HomePage />} />
-      <Route path="marketplace" element={<MarketplacePage />} />
-      <Route path="product/:productId" element={<ProductPage />} />
-      <Route path="blog" element={<BlogPage />} />
-      <Route path="newsroom/:postId" element={<NewsroomPage />} />
-      <Route path="contact" element={<ContactPage />} />
-      <Route path="about" element={<AboutPage />} />
-      <Route path="faq" element={<FAQPage />} />
-      <Route path="discord" element={<DiscordPage />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/marketplace" element={<MarketplacePage />} />
+      <Route path="/product/:productId" element={<ProductPage />} />
+      <Route path="/blog" element={<BlogPage />} />
+      <Route path="/newsroom/:postId" element={<NewsroomPage />} />
+      <Route path="/contact" element={<ContactPage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/faq" element={<FAQPage />} />
+      <Route path="/discord" element={<DiscordPage />} />
     </Routes>
   </Router>
 );
