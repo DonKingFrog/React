@@ -1,4 +1,5 @@
 import { Fragment, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function RenderContactPage() {
     import ('./Contact.css');
@@ -129,17 +130,17 @@ function RenderContactPage() {
                 <div class="discord">
                     <h1>Join Our Discord</h1>
                     <p>You may be able to get attention faster through our Discord server by joining below</p>
-                    <a href="/discord">
+                    <Link to="/discord">
                         <button class="join">
                             <p>Join</p>
                         </button>
-                    </a>
+                    </Link>
                     <sup>Only eligible for people above the age of 13</sup>
                 </div>
             </div>
 
             {/* <div class="background">
-                <img src="/imgs/backgroundPatternPS.png" />
+                <img src="imgs/backgroundPatternPS.png" />
             </div> */}
         </Fragment>
     );

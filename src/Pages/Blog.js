@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function RenderBlogPage() {
     import('./Blog.css');
     return (
@@ -63,7 +65,7 @@ function RenderBlogPage() {
 
 function blogBlock({ redirect, thumbnail, category, title, version, date }) {
     return(
-        <a href={redirect} class="frame">
+        <Link to={redirect} class="frame">
             <div class="image">
                 <img src={thumbnail} />
             </div>
@@ -80,7 +82,7 @@ function blogBlock({ redirect, thumbnail, category, title, version, date }) {
 
                 <sup>{date}</sup>
             </div>
-        </a>
+        </Link>
     );
 }
 

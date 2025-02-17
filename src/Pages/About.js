@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom';
 
 function RenderAboutPage() {
     import('./About.css');
@@ -25,7 +26,7 @@ function RenderAboutPage() {
                 {/* <p>Dev Equip was founded by Donavan, following his resignment from Bangkok Entertainment, a Roblox EDM concert group. Is now a company specialized in donation boards and administrator panels.</p> */}
                 <p>Empowering you to become a professional developer.</p>
                 <div id="overlay"></div>
-                <img src="/imgs/cashierview.png" alt="" id="backdrop" />
+                <img src="imgs/cashierview.png" alt="" id="backdrop" />
             </section>
             
             <section id="description">
@@ -42,7 +43,7 @@ Dev Equip started mainly focusing on high-end systems like donation boards and a
             </section>
         
             <section id="values">
-                    <img src="/imgs/developerVectorArt.gif" alt="" />
+                    <img src="imgs/developerVectorArt.gif" alt="" />
                     
                     <div class="wrapper">
                         <h1 class="hidden">Core Values</h1>

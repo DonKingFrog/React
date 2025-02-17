@@ -7,8 +7,8 @@
         "engine" : "Roblox",
         "price" : "FREE",
 
-        "thumbnail" : "/imgs/ndthumb.jpg",
-        "logo" : "/imgs/ndlogo.jpg",
+        "thumbnail" : "imgs/ndthumb.jpg",
+        "logo" : "imgs/ndlogo.jpg",
 
         "name" : "Nexus Dynamics",
         "author" : {
@@ -53,8 +53,8 @@
         "engine" : "Roblox",
         "price" : "FREE",
 
-        "thumbnail" : "/imgs/dbthumb.jpg",
-        "logo" : "/imgs/dblogo.png",
+        "thumbnail" : "imgs/dbthumb.jpg",
+        "logo" : "imgs/dblogo.png",
 
         "name" : "Donation Board",
         "author" : {
@@ -99,8 +99,8 @@
         "engine" : "Roblox",
         "price" : "FREE",
 
-        "thumbnail" : "/imgs/aithumb.jpg",
-        "logo" : "/imgs/ailogo.jpg",
+        "thumbnail" : "imgs/aithumb.jpg",
+        "logo" : "imgs/ailogo.jpg",
 
         "name" : "Axis Indicator",
         "author" : {
@@ -144,8 +144,8 @@
         
         "discontinued": true,
 
-        "thumbnail" : "/imgs/emthumb.png",
-        "logo" : "/imgs/emlogo.jpg",
+        "thumbnail" : "imgs/emthumb.png",
+        "logo" : "imgs/emlogo.jpg",
         
         "name" : "Exploiter Mayhem",
         "author" : {
@@ -187,8 +187,8 @@
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "/imgs/healthguithumb.jpg",
-        "logo" : "/imgs/healthguilogo.jpg",
+        "thumbnail" : "imgs/healthguithumb.jpg",
+        "logo" : "imgs/healthguilogo.jpg",
 
         "name" : "HealthGui",
         "author" : {
@@ -229,8 +229,8 @@
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "/imgs/mutebuttonthumb.jpg",
-        "logo" : "/imgs/mutebuttonlogo.jpg",
+        "thumbnail" : "imgs/mutebuttonthumb.jpg",
+        "logo" : "imgs/mutebuttonlogo.jpg",
         
         "name" : "Mute Button",
         "author" : {
@@ -267,8 +267,8 @@
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "/imgs/ikcthumb.jpg",
-        "logo" : "/imgs/nologo.png",
+        "thumbnail" : "imgs/ikcthumb.jpg",
+        "logo" : "imgs/nologo.png",
         
         "name" : "IK Controller",
         "author" : {
@@ -308,8 +308,8 @@
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "/imgs/doorsthumb.png",
-        "logo" : "/imgs/doorslogo.jpg",
+        "thumbnail" : "imgs/doorsthumb.png",
+        "logo" : "imgs/doorslogo.jpg",
         
         "name" : "Doors",
         "author" : {
@@ -350,8 +350,8 @@
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "/imgs/betterbaseplatethumb.jpg",
-        "logo" : "/imgs/betterbaseplatelogo.jpg",
+        "thumbnail" : "imgs/betterbaseplatethumb.jpg",
+        "logo" : "imgs/betterbaseplatelogo.jpg",
         
         "name" : "Better Baseplate",
         "author" : {
@@ -388,8 +388,8 @@
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "/imgs/lpislandthumb.png",
-        "logo" : "/imgs/lpislandlogo.jpg",
+        "thumbnail" : "imgs/lpislandthumb.png",
+        "logo" : "imgs/lpislandlogo.jpg",
         
         "name" : "Low Poly Island",
         "author" : {
@@ -424,8 +424,8 @@
       "category": "3D Model",
       "engine": "Roblox",
       "price": "FREE",
-      "thumbnail": "/imgs/scythethumb.jpg",
-      "logo": "/imgs//scythelogo.jpg",
+      "thumbnail": "imgs/scythethumb.jpg",
+      "logo": "imgs//scythelogo.jpg",
       "name": "Scythe",
       "author": {
         "image": "http://devequip.com/Resources/Common/logo.png",
@@ -457,8 +457,8 @@
       "category": "3D Model",
       "engine": "Roblox",
       "price": "FREE",
-      "thumbnail": "/imgs/bedthumb.jpg",
-      "logo": "/imgs//bedlogo.jpg",
+      "thumbnail": "imgs/bedthumb.jpg",
+      "logo": "imgs//bedlogo.jpg",
       "name": "Bed",
       "author": {
         "image": "http://devequip.com/Resources/Common/logo.png",
@@ -490,8 +490,8 @@
       "category": "3D Model",
       "engine": "Roblox",
       "price": "FREE",
-      "thumbnail": "/imgs/bookshelfthumb.jpg",
-      "logo": "/imgs//bookshelflogo.jpg",
+      "thumbnail": "imgs/bookshelfthumb.jpg",
+      "logo": "imgs//bookshelflogo.jpg",
       "name": "Bookshelf",
       "author": {
         "image": "http://devequip.com/Resources/Common/logo.png",
@@ -523,8 +523,8 @@
       "category": "3D Model",
       "engine": "Roblox",
       "price": "FREE",
-      "thumbnail": "/imgs/burgersthumb.jpg",
-      "logo": "/imgs//burgerslogo.jpg",
+      "thumbnail": "imgs/burgersthumb.jpg",
+      "logo": "imgs//burgerslogo.jpg",
       "name": "Burgers",
       "author": {
         "image": "http://devequip.com/Resources/Common/logo.png",
@@ -556,8 +556,8 @@
       "category": "3D Model",
       "engine": "Roblox",
       "price": "FREE",
-      "thumbnail": "/imgs/katanathumb.jpg",
-      "logo": "/imgs//katanalogo.jpg",
+      "thumbnail": "imgs/katanathumb.jpg",
+      "logo": "imgs//katanalogo.jpg",
       "name": "Katana",
       "author": {
         "image": "http://devequip.com/Resources/Common/logo.png",
@@ -589,8 +589,8 @@
       "category": "3D Model",
       "engine": "Roblox",
       "price": "FREE",
-      "thumbnail": "/imgs/anvilthumb.png",
-      "logo": "/imgs//anvillogo.jpg",
+      "thumbnail": "imgs/anvilthumb.png",
+      "logo": "imgs//anvillogo.jpg",
       "name": "Anvil",
       "author": {
         "image": "http://devequip.com/Resources/Common/logo.png",
@@ -622,8 +622,8 @@
       "category": "3D Model",
       "engine": "Roblox",
       "price": "FREE",
-      "thumbnail": "/imgs/chesspiecesthumb.jpg",
-      "logo": "/imgs//chesspieceslogo.jpg",
+      "thumbnail": "imgs/chesspiecesthumb.jpg",
+      "logo": "imgs//chesspieceslogo.jpg",
       "name": "Chess Pieces",
       "author": {
         "image": "http://devequip.com/Resources/Common/logo.png",
@@ -655,8 +655,8 @@
       "category": "3D Model",
       "engine": "Roblox",
       "price": "FREE",
-      "thumbnail": "/imgs/glockthumb.jpg",
-      "logo": "/imgs//glocklogo.jpg",
+      "thumbnail": "imgs/glockthumb.jpg",
+      "logo": "imgs//glocklogo.jpg",
       "name": "Glock",
       "author": {
         "image": "http://devequip.com/Resources/Common/logo.png",
@@ -688,8 +688,8 @@
       "category": "3D Model",
       "engine": "Roblox",
       "price": "FREE",
-      "thumbnail": "/imgs/shibaplushiesthumb.png",
-      "logo": "/imgs//shibaplushieslogo.jpg",
+      "thumbnail": "imgs/shibaplushiesthumb.png",
+      "logo": "imgs//shibaplushieslogo.jpg",
       "name": "Shiba Plushies",
       "author": {
         "image": "http://devequip.com/Resources/Common/logo.png",

@@ -1,4 +1,5 @@
-import React, { Fragment, useEffect } from 'react'
+import React, { Fragment, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function RenderHomePage() {
     import ('./Home.css');
@@ -36,13 +37,13 @@ function RenderHomePage() {
                         <p>Equip yourself with game-ready assets made by professional developers.</p>
                         
                         <div class="actions">
-                            <a id="button" href="/marketplace">
+                            <Link to="/marketplace" id="button">
                                 Marketplace
-                            </a>
+                            </Link>
 
-                            <a id="redirect" href="/about">
+                            <Link to="/about" id="redirect">
                                 Learn More
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -105,15 +106,15 @@ function RenderHomePage() {
                 <section id="help">
                     <div class="support">
                         <h1>Need Help?</h1>
-                        <a id="redirect" href="/contact">
+                        <Link to="/contact" id="redirect">
                             Contact Support
-                        </a>
+                        </Link>
                     </div>
 
                     <div class="faq">
                         <button class="faqItem active" onClick={(event) => toggleFAQActive(event)}>
                             <h1>Can I request a feature or suggest improvements?</h1>
-                            <p>Yes! We value your feedback and suggestions. Visist our <a href="https://devequip.com/discord">Discord</a> to submit your ideas. Our team reviews all submissions and considers them for the future.</p>
+                            <p>Yes! We value your feedback and suggestions. Visist our <Link to="/discord"><p>Join</p></Link> to submit your ideas. Our team reviews all submissions and considers them for the future.</p>
 
                             <svg id="plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>
                             <svg id="minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
@@ -129,7 +130,7 @@ function RenderHomePage() {
 
                         <button class="faqItem" onClick={(event) => toggleFAQActive(event)}>
                             <h1>My product isn't working, can I get assistance with the installation?</h1>
-                            <p>You may join our <a href="https://devequip.com/discord">Discord</a> and ask a staff member or a fellow developer to assist you!</p>
+                            <p>You may join our <Link to="/discord"><p>Join</p></Link> and ask a staff member or a fellow developer to assist you!</p>
 
                             <svg id="plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>
                             <svg id="minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
@@ -137,7 +138,7 @@ function RenderHomePage() {
 
                         <button class="faqItem" onClick={(event) => toggleFAQActive(event)}>
                             <h1>How do I report a bug or issue?</h1>
-                            <p>To report a bug or issue, please visit our <a href="https://devequip.com/discord">Discord</a>. Find the Bug Report channel and write a detailed response about the issue you're having. Our team will investigate and address the problem as soon as possible.</p>
+                            <p>To report a bug or issue, please visit our <Link to="/discord"><p>Join</p></Link>. Find the Bug Report channel and write a detailed response about the issue you're having. Our team will investigate and address the problem as soon as possible.</p>
 
                             <svg id="plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>
                             <svg id="minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
@@ -156,9 +157,7 @@ function RenderHomePage() {
                 <section id="community">
                     <h1>Ready to simplify your<br />developing career?</h1>
                     <p>Join thousands of satisfied users and experience the difference.</p>
-                    <a class="hidden"id="button" href="https://devequip.com/discord">
-                        Join Community Discord
-                    </a>
+                    <Link class="hidden" id="button" to="/discord">Join Community Discord</Link>
                     <img src="imgs/codingbackdrop.jpg" alt="" id="backdrop" />
                 </section>
             </div>

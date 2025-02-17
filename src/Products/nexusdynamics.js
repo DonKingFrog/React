@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 
 function GetInstallationGuide() {
@@ -35,10 +36,10 @@ function GetInstallationGuide() {
                 <p>We offer you the ability to store and use tools in-game by adding them to <b>Nexus Dynamics → Customs → Tools</b></p>
                 <br /><br />
                 <h2>Ranking</h2>
-                <p>You can watch the <a href="#">Setup for Nexus Dynamics</a> for a guide on how to rank administrators.</p>
+                <p>You can watch the <a href="https://www.youtube.com/watch?v=UTU_KseusC8&t">Setup for Nexus Dynamics</a> for a guide on how to rank administrators.</p>
                 <br /><br />
                 <h2>Custom Commands</h2>
-                <p>You can watch the <a href="#">How to add custom commands</a> video for a guide on how to create custom commands.</p>
+                <p>You can watch the <a href="https://www.youtube.com/watch?v=nXzOBbfYKPA&t">How to add custom commands</a> video for a guide on how to create custom commands.</p>
             </div>
         </Fragment>
     );

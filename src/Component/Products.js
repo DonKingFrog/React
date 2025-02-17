@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
 function RenderProductPage() {
     import ("../Products/ProductsPage.css");
@@ -92,15 +92,15 @@ function RenderProductPage() {
                             </div>
             
                             <div class="download bottom-border">
-                                <a href={jsonContent.download.href} class="button">
+                                <Link to={jsonContent.download.href} class="button">
                                     <p>Download</p>
-                                </a>
+                                </Link>
             
                                 <div class="content">
                                     <span class="seperator"><p class="price">{jsonContent.price}</p> <div><svg class="download-icon" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"><path fill="#475569" d="M4 6L1.5 3.5L2.2 2.775L3.5 4.075V0H4.5V4.075L5.8 2.775L6.5 3.5L4 6ZM1 8C0.725 8 0.489583 7.90208 0.29375 7.70625C0.0979167 7.51042 0 7.275 0 7V5.5H1V7H7V5.5H8V7C8 7.275 7.90208 7.51042 7.70625 7.70625C7.51042 7.90208 7.275 8 7 8H1Z"/></svg><p class="download-count">({formatNumber(jsonContent.download.count)})</p></div></span>
-                                    <a href={jsonContent.download.source}>
+                                    <Link to={jsonContent.download.source}>
                                         View Source-Code
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
             
@@ -113,7 +113,7 @@ function RenderProductPage() {
                             </div>
             
                             <div class="bugreport">
-                                <p>Found a problem?</p><a href="https://devequip.com/discord">Report Bug</a>
+                                <p>Found a problem?</p><Link to="/discord">Report Bug</Link>
                             </div>
                         </div>
                     </div>

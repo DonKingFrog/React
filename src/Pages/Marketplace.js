@@ -1,4 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function RenderMarketplacePage() {
     import("./Marketplace.css");    
@@ -298,7 +299,7 @@ function CreateProduct(json) {
     json = json.product
 
     return (
-        <a id="product" href={json.redirect}>
+        <Link to="/product" id="product">
             <img src={json.thumbnail} alt="" />
             <div class="content">
                 {json.name}
@@ -315,7 +316,7 @@ function CreateProduct(json) {
                 </div>
             </div>
             {json.price}
-        </a>
+        </Link>
     );
 }
 
