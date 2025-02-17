@@ -13,7 +13,7 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "https://donkingfrog.github.io/react",
+  "start_url": "",
   "display": "standalone",
   "theme_color": "#000a13",
   "background_color": "#ffffff"
