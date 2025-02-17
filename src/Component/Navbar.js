@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     import("./Navbar.css");
@@ -25,7 +26,8 @@ function Navbar() {
 
             <div class={`center ${!navbar ? "collapsed" : ""}`}>
                 <a href="/about">About</a>
-                <a href="/marketplace">Marketplace</a>
+                <Link to="/marketplace">Marketplace</Link>
+                {/* <a href="/marketplace">Marketplace</a> */}
                 <a href="/blog">Blog</a>
                 <a href="/contact">Contact</a>
             </div>
