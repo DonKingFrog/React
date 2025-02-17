@@ -27,7 +27,7 @@ function Navbar() {
             <div class={`center ${!navbar ? "collapsed" : ""}`}>
                 <Link to="/about">About</Link>
                 <Link to="/marketplace">Marketplace</Link>
-                <Link to="/blgo">Blog</Link>
+                <Link to="/blog">Blog</Link>
                 <Link to="/contact">Contact</Link>
             </div>
 
