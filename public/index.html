@@ -11,23 +11,6 @@
     />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Dev Equip</title>
-
-    <script type="text/javascript">
-      // Capture all clicks on links
-      document.addEventListener('click', function(event) {
-        if (event.target.tagName === 'A' && event.target.origin === window.location.origin) {
-          event.preventDefault();
-          window.history.pushState({}, '', event.target.href);
-          window.dispatchEvent(new Event('popstate'));
-        }
-      });
-
-      // Capture browser navigation events
-      window.addEventListener('popstate', function() {
-        // Fake a full page reload to handle route changes
-        window.location.href = window.location.href;
-      });
-    </script>
   </head>
   <body>
     <div id="root"></div>
