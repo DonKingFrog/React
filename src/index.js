@@ -5,11 +5,11 @@ import './colors.css';
 import { Routes } from "./Routes";
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Routes />
-  </React.StrictMode>
+ReactDOM.render(
+  <Routes />,
+  document.getElementById('root')
 )
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
