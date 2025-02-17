@@ -14,7 +14,7 @@ function Navbar() {
         <header class="navbar">
             <div class="left">
                 <a href="/">
-                    <img src="https://devequip.com/Resources/Common/logo.png" />
+                    <img src="logo.png" />
                     <h1>DEV EQUIP</h1>
                 </a>
 

@@ -66,11 +66,11 @@ function RenderHomePage() {
                         </div>
                     </div>
 
-                    <img src="/imgs/heroBanner.jpg" alt="" id="backdrop" />
+                    <img src="imgs/heroBanner.jpg" alt="" id="backdrop" />
                 </section>
 
                 <section id="previews">
-                    <img src="/imgs/app-development-1.gif" alt="" />
+                    <img src="imgs/app-development-1.gif" alt="" />
                     
                     <div class="wrapper">
                         <h1 class="hidden">Develop your games like<br /> a professional developer</h1>
@@ -159,7 +159,7 @@ function RenderHomePage() {
                     <a class="hidden"id="button" href="https://devequip.com/discord">
                         Join Community Discord
                     </a>
-                    <img src="/imgs/codingbackdrop.jpg" alt="" id="backdrop" />
+                    <img src="imgs/codingbackdrop.jpg" alt="" id="backdrop" />
                 </section>
             </div>
         </Fragment>
