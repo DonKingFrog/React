@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-function ProductPage() {
+function RenderProductPage() {
     import ("../Products/ProductsPage.css");
     const { productId } = useParams();
     const [jsonContent, setJsonContent] = useState();
@@ -184,4 +184,4 @@ function ProductPage() {
 
 function formatNumber(num) { if(num >= 1000) { return (num / 1000) + 'k'; } return num; }
 
-export default ProductPage
+export default RenderProductPage

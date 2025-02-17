@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-function NewsPost() {
+function RenderNewsPost() {
     const { postId } = useParams();
     const [PostComponent, setPostComponent] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
@@ -43,4 +43,4 @@ function NewsPost() {
     );
 }
 
-export default NewsPost;
+export default RenderNewsPost;

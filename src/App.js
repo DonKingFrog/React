@@ -5,13 +5,13 @@ import Footer from "./Component/Footer.js";
 import RenderHomePage from "./Pages/Home.js";
 import RenderBlogPage from './Pages/Blog.js';
 import RenderContactPage from './Pages/Contact.js'
-import NewsPost from "./Component/Newsroom.js";
-import ProductPage from "./Component/Products.js";
+import RenderNewsPost from "./Component/Newsroom.js";
+import RenderProductPage from "./Component/Products.js";
 import RenderMarketplacePage from './Pages/Marketplace.js';
 import RenderAboutPage from './Pages/About.js';
 import RenderFAQPage from './Pages/FAQ.js';
 
-function Home() {
+function HomePage() {
   return (
     <Fragment>
       <Navbar />
@@ -21,7 +21,7 @@ function Home() {
   );
 }
 
-function Marketplace() {
+function MarketplacePage() {
   return (
     <Fragment>
       <Navbar />
@@ -31,7 +31,7 @@ function Marketplace() {
   );
 }
 
-function Blog() {
+function BlogPage() {
   return (
     <Fragment>
       <Navbar />
@@ -41,7 +41,7 @@ function Blog() {
   );
 }
 
-function Contact() {
+function ContactPage() {
   return (
     <Fragment>
       <Navbar />
@@ -51,27 +51,27 @@ function Contact() {
   );
 }
 
-function Newsroom() {
+function NewsroomPage() {
   return (
     <Fragment>
       <Navbar />
-      <NewsPost />
+      <RenderNewsPost />
       <Footer />
     </Fragment>
   );
 }
 
-function Product() {
+function ProductPage() {
   return (
     <Fragment>
       <Navbar />
-      <ProductPage />
+      <RenderProductPage />
       <Footer />
     </Fragment>
   );
 }
 
-function Discord() {
+function DiscordPage() {
   return(
     <Fragment>
       <meta http-equiv="refresh" content="0; URL=https://discord.gg/QBdH2p7QBr" />
@@ -79,7 +79,7 @@ function Discord() {
   );
 }
 
-function About() {
+function AboutPage() {
   return(
     <Fragment>
       <Navbar />
@@ -89,7 +89,7 @@ function About() {
   )
 }
 
-function FAQ() {
+function FAQPage() {
   return(
     <Fragment>
       <Navbar />
@@ -100,13 +100,13 @@ function FAQ() {
 }
 
 export {
-  Home,
-  Marketplace,
-  Blog,
-  Contact,
-  Newsroom,
-  Product,
-  Discord,
-  About,
-  FAQ,
+  HomePage,
+  MarketplacePage,
+  BlogPage,
+  ContactPage,
+  NewsroomPage,
+  ProductPage,
+  DiscordPage,
+  AboutPage,
+  FAQPage,
 }
