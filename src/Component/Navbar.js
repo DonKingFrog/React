@@ -15,7 +15,7 @@ function Navbar() {
     return (
         <header class="navbar">
             <div class="left">
-                <Link to="/">
+                <Link to="./">
                     <img src="logo.png" />
                     <h1>DEV EQUIP</h1>
                 </Link>
