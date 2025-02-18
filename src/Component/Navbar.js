@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import styles from "./Navbar.css";
 
 function Navbar() {
-    import("./Navbar.css");
     const [navbar, setNavbar] = useState(false);
 
     useEffect(() => {
@@ -12,7 +12,7 @@ function Navbar() {
     })
 
     return (
-        <header class="navbar">
+        <header class="navbar" className={styles.header}>
             <div class="left">
                 <Link to="/">
                     <img src="logo.png" />

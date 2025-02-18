@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
+import styles from "./Footer.css";
 
 function Footer() {
-    import("./Footer.css");
     return (
-        <footer>
+        <footer className={styles.footer}>
             <div class="cards">
                 <div class="logo">
                     <Link to="/">
