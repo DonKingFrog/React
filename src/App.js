@@ -12,8 +12,6 @@ import RenderAboutPage from './Pages/About.js';
 import RenderFAQPage from './Pages/FAQ.js';
 
 function HomePage() {
-  useEffect(() => { window.reload() })
-  
   return (
     <Fragment>
       <Navbar />
@@ -24,8 +22,6 @@ function HomePage() {
 }
 
 function MarketplacePage() {
-  useEffect(() => { window.reload() })
-
   return (
     <Fragment>
       <Navbar />
@@ -36,8 +32,6 @@ function MarketplacePage() {
 }
 
 function BlogPage() {
-  useEffect(() => { window.reload() })
-  
   return (
     <Fragment>
       <Navbar />
@@ -48,8 +42,6 @@ function BlogPage() {
 }
 
 function ContactPage() {
-  useEffect(() => { window.reload() })
-
   return (
     <Fragment>
       <Navbar />
@@ -60,8 +52,6 @@ function ContactPage() {
 }
 
 function NewsroomPage() {
-  useEffect(() => { window.reload() })
-
   return (
     <Fragment>
       <Navbar />
@@ -72,8 +62,6 @@ function NewsroomPage() {
 }
 
 function ProductPage() {
-  useEffect(() => { window.reload() })
-
   return (
     <Fragment>
       <Navbar />
@@ -84,8 +72,6 @@ function ProductPage() {
 }
 
 function DiscordPage() {
-  useEffect(() => { window.reload() })
-
   return(
     <Fragment>
       <meta http-equiv="refresh" content="0; URL=https://discord.gg/QBdH2p7QBr" />
@@ -94,8 +80,6 @@ function DiscordPage() {
 }
 
 function AboutPage() {
-  useEffect(() => { window.reload() })
-
   return(
     <Fragment>
       <Navbar />
@@ -106,8 +90,6 @@ function AboutPage() {
 }
 
 function FAQPage() {
-  useEffect(() => { window.reload() })
-  
   return(
     <Fragment>
       <Navbar />
