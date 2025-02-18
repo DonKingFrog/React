@@ -18,7 +18,7 @@ header .right .redirect {
 
 
 @media screen and (min-width: 200px) and (max-width: 1080px) {
-    .page {
+    .page-about {
         display: flex;
         flex-direction: column;
         gap: 19px;
@@ -29,7 +29,7 @@ header .right .redirect {
         box-sizing: border-box;
     }
     
-    .page #about {
+    .page-about #about {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -48,7 +48,7 @@ header .right .redirect {
         box-sizing: border-box;
     }
     
-    .page #about #overlay {
+    .page-about #about #overlay {
         position: absolute;
         top: 0; left: 0;
         width: 100%;
@@ -60,7 +60,7 @@ header .right .redirect {
         z-index: 1;
     }
     
-    .page #about #backdrop {
+    .page-about #about #backdrop {
         position: absolute;
         top: 0; left: 0;
         width: 100%;
@@ -70,20 +70,20 @@ header .right .redirect {
         object-fit: cover;
     }
     
-    .page #about h1 {
+    .page-about #about h1 {
         font-size: 60px;
         font-weight: 700;
         color: #ffffff;
         z-index: 2;
     }
     
-    .page #about p {
+    .page-about #about p {
         font-size: 18px;
         color: #ffffff;
         z-index: 2;
     }
     
-    .page #description { 
+    .page-about #description { 
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -95,7 +95,7 @@ header .right .redirect {
         border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     }
     
-    .page #description p {
+    .page-about #description p {
         width: 100%;
         height: auto;
     
@@ -106,7 +106,7 @@ header .right .redirect {
         text-align: center;
     }
     
-    #values {
+    .page-about #values {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -122,11 +122,11 @@ header .right .redirect {
         box-sizing: border-box;
     }
     
-    #values img {
+    .page-about #values img {
         width: 100%;
     }
     
-    #values .wrapper {
+    .page-about #values .wrapper {
         display: flex;
         flex-direction: column;
         gap: 100px;
@@ -137,14 +137,14 @@ header .right .redirect {
         box-sizing: border-box;
     }
     
-    #values .wrapper h1 {
+    .page-about #values .wrapper h1 {
         text-align: center;
         font-size: 45px;
         font-weight: 700;
         color: var(--previewsTitle);
     }
     
-    #values .wrapper div {
+    .page-about #values .wrapper div {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -155,7 +155,7 @@ header .right .redirect {
         height: auto;
     }
     
-    #values .wrapper div .top {
+    .page-about #values .wrapper div .top {
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -163,62 +163,62 @@ header .right .redirect {
         gap: 20px;        
     }
     
-    #values .wrapper div h1 {
+    .page-about #values .wrapper div h1 {
         text-align: center;
         font-size: 30px;
         font-weight: 600;
         color: var(--previewsTitle);
     }
     
-    #values .wrapper div p {
+    .page-about #values .wrapper div p {
         text-align: center;
         font-size: 20px;
         font-weight: 500;
         color: var(--previewsText);
     }
     
-    #values .wrapper div svg {
+    .page-about #values .wrapper div svg {
         width: 50px;
         height: 50px;
     }
     
-    #values .wrapper div svg path { fill: var(--previewsTitle) }
+    .page-about #values .wrapper div svg path { fill: var(--previewsTitle) }
 
-    .hidden {
+    .page-about .hidden {
         opacity: 0;
         transform: translateY(100%);
         transition: all 1s;
     }  
     
-    .hiddenBlur {
+    .page-about .hiddenBlur {
         opacity: 0;
         filter: blur(5px);
         transform: translateY(100%);
         transition: all 1s;
     }
     
-    .show {
+    .page-about .show {
         opacity: 1;
         filter: blur(0);
         transform: translateY(0);
     }
     
     @media(prefers-reduced-motion) {
-        .hidden {
+        .page-about .hidden {
             transition: none;
         }
     }
         
-    #previews .wrapper h1 { transition-delay: 100ms}
-    #previews .wrapper div:nth-child(2) { transition-delay: 200ms}
-    #previews .wrapper div:nth-child(3) { transition-delay: 300ms}
-    #previews .wrapper div:nth-child(4) { transition-delay: 400ms}
+    .page-about #previews .wrapper h1 { transition-delay: 100ms}
+    .page-about #previews .wrapper div:nth-child(2) { transition-delay: 200ms}
+    .page-about #previews .wrapper div:nth-child(3) { transition-delay: 300ms}
+    .page-about #previews .wrapper div:nth-child(4) { transition-delay: 400ms}
     
-    #community p, #community a { transition-delay: 200ms };
+    .page-about #community p, .page-about #community a { transition-delay: 200ms };
 }
 
 @media screen and (min-width: 1081px) {
-    .page {
+    .page-about {
         display: flex;
         flex-direction: column;
         gap: 19px;
@@ -230,7 +230,7 @@ header .right .redirect {
         box-sizing: border-box;
     }
     
-    .page #about {
+    .page-about #about {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -249,7 +249,7 @@ header .right .redirect {
         box-sizing: border-box;
     }
     
-    .page #about #overlay {
+    .page-about #about #overlay {
         position: absolute;
         top: 0; left: 0;
         width: 100%;
@@ -261,7 +261,7 @@ header .right .redirect {
         z-index: 1;
     }
     
-    .page #about #backdrop {
+    .page-about #about #backdrop {
         position: absolute;
         top: 0; left: 0;
         width: 100%;
@@ -271,20 +271,20 @@ header .right .redirect {
         object-fit: cover;
     }
     
-    .page #about h1 {
+    .page-about #about h1 {
         font-size: 60px;
         font-weight: 700;
         color: #ffffff;
         z-index: 2;
     }
     
-    .page #about p {
+    .page-about #about p {
         font-size: 18px;
         color: #ffffff;
         z-index: 2;
     }
     
-    .page #description {
+    .page-about #description {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -294,7 +294,7 @@ header .right .redirect {
         padding: 50px;
     }
     
-    .page #description p {
+    .page-about #description p {
         width: 930px;
         height: auto;
     
@@ -305,7 +305,7 @@ header .right .redirect {
         text-align: left;
     }
     
-    #values {
+    .page-about #values {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -321,12 +321,12 @@ header .right .redirect {
         box-sizing: border-box;
     }
     
-    #values img {
+    .page-about #values img {
         width: 742px;
         height: 505.91px;
     }
     
-    #values .wrapper {
+    .page-about #values .wrapper {
         display: flex;
         flex-direction: column;
         gap: 50px;
@@ -337,13 +337,13 @@ header .right .redirect {
         box-sizing: border-box;
     }
     
-    #values .wrapper h1 {
+    .page-about #values .wrapper h1 {
         font-size: 50px;
         font-weight: 700;
         color: var(--previewsTitle);
     }
     
-    #values .wrapper div {
+    .page-about #values .wrapper div {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -352,29 +352,61 @@ header .right .redirect {
         height: auto;
     }
     
-    #values .wrapper div .top {
+    .page-about #values .wrapper div .top {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 18px;
     }
     
-    #values .wrapper div h1 {
+    .page-about #values .wrapper div h1 {
         font-size: 30px;
         font-weight: 600;
         color: var(--previewsTitle);
     }
     
-    #values .wrapper div p {
+    .page-about #values .wrapper div p {
         font-size: 20px;
         font-weight: 500;
         color: var(--previewsText);
     }
     
-    #values .wrapper div svg {
+    .page-about #values .wrapper div svg {
         width: 30px;
         height: 30px;
     }
     
-    #values .wrapper div svg path { fill: var(--previewsTitle) }
+    .page-about #values .wrapper div svg path { fill: var(--previewsTitle) }
+
+    .page-about .hidden {
+        opacity: 0;
+        transform: translateY(100%);
+        transition: all 1s;
+    }  
+    
+    .page-about .hiddenBlur {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateY(100%);
+        transition: all 1s;
+    }
+    
+    .page-about .show {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+    
+    @media(prefers-reduced-motion) {
+        .page-about .hidden {
+            transition: none;
+        }
+    }
+        
+    .page-about #previews .wrapper h1 { transition-delay: 100ms}
+    .page-about #previews .wrapper div:nth-child(2) { transition-delay: 200ms}
+    .page-about #previews .wrapper div:nth-child(3) { transition-delay: 300ms}
+    .page-about #previews .wrapper div:nth-child(4) { transition-delay: 400ms}
+    
+    .page-about #community p, .page-about #community a { transition-delay: 200ms };
 }

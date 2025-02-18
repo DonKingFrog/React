@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function RenderBlogPage() {
     import('./Blog.css');
     return (
-        <div class="page">
+        <div class="page-blog">
             <div class="container">
                 {blogBlock({
                     "redirect" : "/newsroom/post6",

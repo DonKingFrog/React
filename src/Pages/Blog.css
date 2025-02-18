@@ -2,7 +2,7 @@ body {
     background-color: #ffffff;
 }
 
-.page .frame {
+.page-blog .frame {
     background-color: var(--frameBackground);
     border: 1px solid var(--frameBorder);
     border-radius: 15px;
@@ -13,7 +13,7 @@ body {
 
 
 @media screen and (min-width: 200px) and (max-width: 1080px) { 
-    .page {
+    .page-blog {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -27,7 +27,7 @@ body {
         box-sizing: border-box;
     }
     
-    .page h1 {
+    .page-blog h1 {
         margin-top: 5px;
     
         font-size: 25px;
@@ -35,18 +35,18 @@ body {
         color: #475569;
     }
     
-    .page .scrollFrame {
+    .page-blog .scrollFrame {
         box-sizing: border-box;
     }
     
-    .page .link {
+    .page-blog .link {
         font-size: 15px;
         font-weight: 500;
         text-decoration: underline;
         color: var(--accent);
     }
     
-    .page .container {
+    .page-blog .container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -56,7 +56,7 @@ body {
         padding-bottom: 10px;
     }
     
-    .page .container a {
+    .page-blog .container a {
         flex-shrink: 0;
         flex-grow: 0;
     
@@ -75,7 +75,7 @@ body {
         box-sizing: border-box;
     }
     
-    .page .image {
+    .page-blog .image {
         margin-bottom: 15px;
         width: 100%;
         height: auto;
@@ -83,14 +83,14 @@ body {
         overflow: hidden;
     }
     
-    .page .image img {
+    .page-blog .image img {
         width: 100%;
         height: 100%;
     
         transition: ease 0.25s;
     }
     
-    .page .content {
+    .page-blog .content {
         display: flex;
         flex-direction: column;
         gap: 5px;
@@ -99,7 +99,7 @@ body {
         height: auto;
     }
     
-    .page .content h3 {
+    .page-blog .content h3 {
         width: 100%;
 
         font-size: 14px;
@@ -109,7 +109,7 @@ body {
         color: var(--infoText);
     }
     
-    .page .content h2 {
+    .page-blog .content h2 {
         width: 100%;
     
         font-size: 30px;
@@ -117,14 +117,14 @@ body {
         color: var(--text);
     }
     
-    .page .content h2 .version {
+    .page-blog .content h2 .version {
         margin-left: 5px;
         font-size: 18px;
         font-weight: 600;
         color: #7f8085; 
     }
     
-    .page .bottom {
+    .page-blog .bottom {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -132,14 +132,14 @@ body {
         padding: 0 30px 30px 30px;
     }
     
-    .page .bottom .read {
+    .page-blog .bottom .read {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 8px;
     }
     
-    .page .bottom .read p {
+    .page-blog .bottom .read p {
         align-items: center;
     
         font-size: 14px;
@@ -148,16 +148,16 @@ body {
         color: var(--infoText);
     }
     
-    .page .bottom .read svg {
+    .page-blog .bottom .read svg {
         width: 14px;
         rotate: -90deg;
     }
     
-    .page .bottom .read svg path {
+    .page-blog .bottom .read svg path {
         fill: var(--infoText);
     }
     
-    .page .bottom sup {
+    .page-blog .bottom sup {
         font-size: 14px;
         font-weight: 600;
         color: #363636;
@@ -165,7 +165,7 @@ body {
 }
 
 @media screen and (min-width: 1081px) {
-    .page {
+    .page-blog {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -181,7 +181,7 @@ body {
         box-sizing: border-box;
     }
     
-    .page h1 {
+    .page-blog h1 {
         margin-top: 5px;
     
         font-size: 25px;
@@ -189,18 +189,18 @@ body {
         color: #475569;
     }
     
-    .page .scrollFrame {
+    .page-blog .scrollFrame {
         box-sizing: border-box;
     }
     
-    .page .link {
+    .page-blog .link {
         font-size: 15px;
         font-weight: 500;
         text-decoration: underline;
         color: var(--accent);
     }
     
-    .page .container {
+    .page-blog .container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -211,7 +211,7 @@ body {
         overflow-x: auto;
     }
     
-    .page .container a {
+    .page-blog .container a {
         flex-shrink: 0;
         flex-grow: 0;
     
@@ -229,7 +229,7 @@ body {
         box-sizing: border-box;
     }
     
-    .page .image {
+    .page-blog .image {
         margin-bottom: 15px;
         width: 350px;
         height: 171px;
@@ -237,7 +237,7 @@ body {
         overflow: hidden;
     }
     
-    .page .image img {
+    .page-blog .image img {
         position: relative;
         top: 50%; left: 50%; transform: translate(-50%, -50%);
         width: 100%;
@@ -246,14 +246,14 @@ body {
         transition: ease 0.25s;
     }
     
-    .page .image img:hover {
+    .page-blog .image img:hover {
         width: 103%;
         height: 103%;
     
         transition: ease 0.25s;
     }
     
-    .page .content {
+    .page-blog .content {
         display: flex;
         flex-direction: column;
         gap: 8px;
@@ -262,7 +262,7 @@ body {
         height: 75px;
     }
     
-    .page .content h3 {
+    .page-blog .content h3 {
         width: 100%;
     
         font-size: 14px;
@@ -272,7 +272,7 @@ body {
         color: var(--infoText);
     }
     
-    .page .content h2 {
+    .page-blog .content h2 {
         width: 100%;
     
         font-size: 21px;
@@ -282,13 +282,13 @@ body {
         color: var(--text);
     }
     
-    .page .content h2 .version {
+    .page-blog .content h2 .version {
         font-size: 15px;
         font-weight: 600;
         color: #7f8085; 
     }
     
-    .page .bottom {
+    .page-blog .bottom {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -297,14 +297,14 @@ body {
         margin-top: 8px;
     }
     
-    .page .bottom .read {
+    .page-blog .bottom .read {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 8px;
     }
     
-    .page .bottom .read p {
+    .page-blog .bottom .read p {
         align-items: center;
     
         font-size: 12px;
@@ -313,16 +313,16 @@ body {
         color: var(--infoText);
     }
     
-    .page .bottom .read svg {
+    .page-blog .bottom .read svg {
         width: 12px;
         rotate: -90deg;
     }
     
-    .page .bottom .read svg path {
+    .page-blog .bottom .read svg path {
         fill: var(--infoText);
     }
     
-    .page .bottom sup {
+    .page-blog .bottom sup {
         font-size: 14px;
         font-weight: 600;
         color: #363636;

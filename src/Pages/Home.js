@@ -1,9 +1,8 @@
 import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import styles from "./Home.css";
 
 function RenderHomePage() {
-    import ('./Home.css');
-
     useEffect(() => {
         document.querySelector("#preloader").classList.add("loaded");
 
@@ -25,7 +24,7 @@ function RenderHomePage() {
         <Fragment>
             <div id="preloader"></div>
 
-            <div class="page">
+            <div class="page-home">
                 <section id="hero">
                     <div class="main verticle-wrapper">
                         <div class="trust">

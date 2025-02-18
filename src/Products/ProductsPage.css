@@ -1,11 +1,11 @@
 body { background-color: #ffffff }
 
-.hidden {
+.page-product .hidden {
     display: none;
 }
 
 @media screen and (min-width: 200px) and (max-width: 1080px) {
-    .page {
+    .page-product {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -16,25 +16,25 @@ body { background-color: #ffffff }
         margin: 0px 25px 0 25px;
     }
     
-    .page .horizontal-container {
+    .page-product .horizontal-container {
         display: flex;
         flex-direction: column;
         
     }
     
-    .page .wrapper {
+    .page-product .wrapper {
         position: relative;
         width: 100%;
         height: 100%;
     }
     
-    .page .bottom-border {
+    .page-product .bottom-border {
         padding-bottom: 12px;
         margin-bottom: 12px;
         border-bottom: 1px solid var(--headerBorder);
     }
 
-    .page .discontinued {
+    .page-product .discontinued {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -54,12 +54,12 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    .page .discontinued svg {
+    .page-product .discontinued svg {
         width: 20px;
         height: 20px;
     }
 
-    .page .discontinued svg path {
+    .page-product .discontinued svg path {
         fill: white;
     }
     
@@ -68,7 +68,7 @@ body { background-color: #ffffff }
     
     
     
-    .page .main {
+    .page-product .main {
         display: flex;
         flex-direction: column;
         gap: 19px;
@@ -78,7 +78,7 @@ body { background-color: #ffffff }
         height: auto;
     }
     
-    .page .thumbnail { 
+    .page-product .thumbnail { 
         position: relative;
         width: 100%;
 
@@ -89,7 +89,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
     
-    .page .action {
+    .page-product .action {
         position: relative;
         width: 100%;
     
@@ -97,7 +97,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
     
-    .page .information { 
+    .page-product .information { 
         display: flex;
         flex-direction: column;
         position: relative;
@@ -115,7 +115,7 @@ body { background-color: #ffffff }
     
     
     
-    .page .thumbnail .current {
+    .page-product .thumbnail .current {
         width: 100%;
         height: 100%;
     }
@@ -126,13 +126,13 @@ body { background-color: #ffffff }
     
     
     
-    .page .action .about { 
+    .page-product .action .about { 
         display: flex;
         flex-direction: row;
         gap: 17px;
     }
     
-    .page .action .about img { 
+    .page-product .action .about img { 
         width: 75px;
         height: 75px;
     
@@ -140,7 +140,7 @@ body { background-color: #ffffff }
         border-radius: 8px;;
     }
     
-    .page .action .about .content { 
+    .page-product .action .about .content { 
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -149,26 +149,26 @@ body { background-color: #ffffff }
         width: 100%;
     }
     
-    .page .action .about .content .title { 
+    .page-product .action .about .content .title { 
         font-size: 25px;
         font-weight: 700;
         color: var(--title);
     }
     
-    .page .action .about .content .bottom { 
+    .page-product .action .about .content .bottom { 
         display: flex;
         flex-direction: row;
         justify-content: left;
         gap: 15px;
     }
     
-    .page .action .about .content .bottom .profile { 
+    .page-product .action .about .content .bottom .profile { 
         display: flex;
         flex-direction: row;
         gap: 5px;
     }
     
-    .page .action .about .content .bottom .profile img {
+    .page-product .action .about .content .bottom .profile img {
         width: 18px;
         height: 18px;
     
@@ -176,47 +176,47 @@ body { background-color: #ffffff }
         border-radius: 28px;
     }
     
-    .page .action .about .content .bottom .profile p {
+    .page-product .action .about .content .bottom .profile p {
         font-size: 14px;
         font-weight: 600;
         color: var(--profileText);
     }
     
-    .page .action .about .content .bottom .reviews {
+    .page-product .action .about .content .bottom .reviews {
         display: flex;
         justify-content: left;
         align-items: center;
         gap: 3px;
     }
     
-    .page .action .about .content .bottom .reviews svg {
+    .page-product .action .about .content .bottom .reviews svg {
         width: 14px;
         height: 14px;
         margin-right: 1px;
     }
     
-    .page .action .about .content .bottom .reviews svg path {
+    .page-product .action .about .content .bottom .reviews svg path {
         fill: var(--text);
     }
     
-    .page .action .about .content .bottom .reviews p {
+    .page-product .action .about .content .bottom .reviews p {
         font-size: 14px;
         font-weight: 600;
         color: var(--valueText);
     }
     
-    .page .action .download .content .download-icon {
+    .page-product .action .download .content .download-icon {
         width: 14px;
         height: 14px;
     }
     
-    .page .action .download { 
+    .page-product .action .download { 
         display: flex;
         flex-direction: column;
         gap: 15px;
     }
     
-    .page .action .download .button {
+    .page-product .action .download .button {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -233,48 +233,48 @@ body { background-color: #ffffff }
         color: var(--buttonText);
     }
     
-    .page .action .download .content {
+    .page-product .action .download .content {
         display: flex;
         flex-direction: column;
     }
     
-    .page .action .download .content span {
+    .page-product .action .download .content span {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
     
-    .page .action .download .content .price {
+    .page-product .action .download .content .price {
         font-size: 20px;
         font-weight: 600;
     
         color: var(--text);
     }
     
-    .page .action .download .content span div {
+    .page-product .action .download .content span div {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 5px;
     }
     
-    .page .action .download .content .download-icon { 
+    .page-product .action .download .content .download-icon { 
         width: 15px;
         height: 15px;
     }
     
-    .page .action .download .content .download-icon path {
+    .page-product .action .download .content .download-icon path {
         fill: var(--text);
     }
     
-    .page .action .download .content .download-count {
+    .page-product .action .download .content .download-count {
         font-size: 16px;
         font-weight: 600;
         color: var(--text);
     }
     
-    .page .action .download .content a {
+    .page-product .action .download .content a {
         margin-top: 5px;
         
         font-size: 18px;
@@ -283,13 +283,13 @@ body { background-color: #ffffff }
         color: var(--accent);
     }
     
-    .page .action .details {
+    .page-product .action .details {
         display: flex;
         flex-direction: column;
         gap: 15px;
     }
     
-    .page .action .details h2 {
+    .page-product .action .details h2 {
         margin-top: 5px;
         margin-bottom: 2px;
     
@@ -298,7 +298,7 @@ body { background-color: #ffffff }
         color: var(--text);
     }
     
-    .page .action .details p {
+    .page-product .action .details p {
         display: flex;
         justify-content: space-between;
 
@@ -307,12 +307,12 @@ body { background-color: #ffffff }
         color: var(--text);
     }
     
-    .page .action .details p span {
+    .page-product .action .details p span {
         text-align: right;
         color: var(--profileText);
     }
     
-    .page .action .bugreport {
+    .page-product .action .bugreport {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -322,13 +322,13 @@ body { background-color: #ffffff }
         margin-top: 20px;
     }
     
-    .page .action .bugreport p {
+    .page-product .action .bugreport p {
         font-size: 16px;
         font-weight: 600;
         color: var(--text);
     }
     
-    .page .action .bugreport a {
+    .page-product .action .bugreport a {
         font-size: 16px;
         font-weight: 600;
         text-decoration: underline;
@@ -341,7 +341,7 @@ body { background-color: #ffffff }
     
     
     
-    .page .information .navigation {
+    .page-product .information .navigation {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -355,13 +355,13 @@ body { background-color: #ffffff }
         border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     }
     
-    .page .information .navigation button.active {
+    .page-product .information .navigation button.active {
         border-bottom: 2px solid var(--accent);
         color: var(--accent);
         transition: ease 0.1s;
     }
     
-    .page .information .navigation button {
+    .page-product .information .navigation button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -380,13 +380,13 @@ body { background-color: #ffffff }
         transition: ease 0.1s;
     }
     
-    .page .information .navigation button:hover {
+    .page-product .information .navigation button:hover {
         border-bottom: 2px solid var(--accent);
         color: var(--accent);
         transition: ease 0.1s;
     }
     
-    .page .information .section {
+    .page-product .information .section {
         display: none;
         flex-direction: column;
         gap: 25px;
@@ -396,17 +396,17 @@ body { background-color: #ffffff }
         text-align: center;
     }
     
-    .page .information .active {
+    .page-product .information .active {
         display: flex;
     }
     
-    .page .information .section p {
+    .page-product .information .section p {
         font-size: 18px;
         font-weight: 400;
         color: var(--text);
     }
     
-    .page .information .overview h1 {
+    .page-product .information .overview h1 {
         margin: 10px 0;
     
         font-size: 22px;
@@ -414,7 +414,7 @@ body { background-color: #ffffff }
         color: var(--title);
     }
     
-    .page .information .overview h2 {
+    .page-product .information .overview h2 {
         margin-top: 25px;
         margin-bottom: 5px;
         
@@ -423,11 +423,11 @@ body { background-color: #ffffff }
         color: var(--text);
     }
     
-    .page .information .installation {
+    .page-product .information .installation {
         text-align: left;
     }
     
-    .page .information .installation .line {
+    .page-product .information .installation .line {
         display: flex;
         flex-direction: row;
         justify-content: left;
@@ -437,7 +437,7 @@ body { background-color: #ffffff }
         margin-bottom: 35px;
     }
     
-    .page .information .installation .step {
+    .page-product .information .installation .step {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -452,11 +452,11 @@ body { background-color: #ffffff }
         color: var(--text);
     }
     
-    .page .information .installation b {
+    .page-product .information .installation b {
         color: var(--descriptionBold);
     }
     
-    .page .information .installation h1 {
+    .page-product .information .installation h1 {
         margin-bottom: 20px;
     
         font-size: 20px;
@@ -464,26 +464,26 @@ body { background-color: #ffffff }
         color: var(--descriptionTitle);
     }
     
-    .page .information .installation h2 {    
+    .page-product .information .installation h2 {    
         margin: 5px 0;
         font-size: 20px;
         font-weight: 700;
         color: var(--descriptionSubTitle);
     }
     
-    .page .information a {
+    .page-product .information a {
         font-weight: 500;
         text-decoration: underline;
         color: var(--accent);
     }
     
-    .page .information a:hover {
+    .page-product .information a:hover {
         color: var(--text);
     }
 }
 
 @media screen and (min-width: 1081px)  {
-    .page {
+    .page-product {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -494,24 +494,24 @@ body { background-color: #ffffff }
         margin: 125px 150px 0 150px;
     }
     
-    .page .horizontal-container {
+    .page-product .horizontal-container {
         display: flex;
         justify-content: space-between;
     }
     
-    .page .wrapper {
+    .page-product .wrapper {
         position: relative;
         width: 100%;
         height: 100%;
     }
     
-    .page .bottom-border {
+    .page-product .bottom-border {
         padding-bottom: 12px;
         margin-bottom: 12px;
         border-bottom: 1px solid var(--headerBorder);
     }
 
-    .page .discontinued {
+    .page-product .discontinued {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -529,12 +529,12 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    .page .discontinued svg {
+    .page-product .discontinued svg {
         width: 20px;
         height: 20px;
     }
 
-    .page .discontinued svg path {
+    .page-product .discontinued svg path {
         fill: white;
     }
     
@@ -543,7 +543,7 @@ body { background-color: #ffffff }
     
     
     
-    .page .main {
+    .page-product .main {
         display: flex;
         flex-direction: row;
         align-items: stretch;
@@ -554,7 +554,7 @@ body { background-color: #ffffff }
         height: 440px;
     }
     
-    .page .thumbnail {
+    .page-product .thumbnail {
         flex-grow: 0;
         flex-shrink: 0;
     
@@ -568,7 +568,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
     
-    .page .action {
+    .page-product .action {
         flex-grow: 1;
         flex-shrink: 1;
     
@@ -579,7 +579,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
     
-    .page .information { 
+    .page-product .information { 
         display: flex;
         flex-direction: column;
         position: relative;
@@ -597,7 +597,7 @@ body { background-color: #ffffff }
     
     
     
-    .page .thumbnail .current {
+    .page-product .thumbnail .current {
         width: 100%;
         height: 100%;
     }
@@ -608,13 +608,13 @@ body { background-color: #ffffff }
     
     
     
-    .page .action .about { 
+    .page-product .action .about { 
         display: flex;
         flex-direction: row;
         gap: 17px;
     }
     
-    .page .action .about img { 
+    .page-product .action .about img { 
         width: 75px;
         height: 75px;
     
@@ -622,7 +622,7 @@ body { background-color: #ffffff }
         border-radius: 8px;;
     }
     
-    .page .action .about .content { 
+    .page-product .action .about .content { 
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -631,26 +631,26 @@ body { background-color: #ffffff }
         width: 100%;
     }
     
-    .page .action .about .content .title { 
+    .page-product .action .about .content .title { 
         font-size: 22px;
         font-weight: 700;
         color: var(--title);
     }
     
-    .page .action .about .content .bottom { 
+    .page-product .action .about .content .bottom { 
         display: flex;
         flex-direction: row;
         justify-content: left;
         gap: 15px;
     }
     
-    .page .action .about .content .bottom .profile { 
+    .page-product .action .about .content .bottom .profile { 
         display: flex;
         flex-direction: row;
         gap: 5px;
     }
     
-    .page .action .about .content .bottom .profile img {
+    .page-product .action .about .content .bottom .profile img {
         width: 18px;
         height: 18px;
     
@@ -658,47 +658,47 @@ body { background-color: #ffffff }
         border-radius: 28px;
     }
     
-    .page .action .about .content .bottom .profile p {
+    .page-product .action .about .content .bottom .profile p {
         font-size: 14px;
         font-weight: 600;
         color: var(--profileText);
     }
     
-    .page .action .about .content .bottom .reviews {
+    .page-product .action .about .content .bottom .reviews {
         display: flex;
         justify-content: left;
         align-items: center;
         gap: 3px;
     }
     
-    .page .action .about .content .bottom .reviews svg {
+    .page-product .action .about .content .bottom .reviews svg {
         width: 14px;
         height: 14px;
         margin-right: 1px;
     }
     
-    .page .action .about .content .bottom .reviews svg path {
+    .page-product .action .about .content .bottom .reviews svg path {
         fill: var(--text);
     }
 
-    .page .action .about .content .bottom .reviews p {
+    .page-product .action .about .content .bottom .reviews p {
         font-size: 14px;
         font-weight: 600;
         color: var(--valueText);
     }
     
-    .page .action .download .content .download-icon {
+    .page-product .action .download .content .download-icon {
         width: 14px;
         height: 14px;
     }
     
-    .page .action .download { 
+    .page-product .action .download { 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
     
-    .page .action .download .button {
+    .page-product .action .download .button {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -714,69 +714,69 @@ body { background-color: #ffffff }
         color: var(--buttonText);
     }
     
-    .page .action .download .button:hover {
+    .page-product .action .download .button:hover {
         background-color: var(--darkAccent);
     }
     
-    .page .action .download .content {
+    .page-product .action .download .content {
         display: flex;
         flex-direction: column;
     }
     
-    .page .action .download .content span {
+    .page-product .action .download .content span {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
     
-    .page .action .download .content .price {
+    .page-product .action .download .content .price {
         font-size: 14px;
         font-weight: 600;
     
         color: var(--valueText);
     }
     
-    .page .action .download .content span div {
+    .page-product .action .download .content span div {
         display: flex;
         flex-direction: reverserow;
         align-items: center;
         gap: 5px;
     }
     
-    .page .action .download .content .download-icon { 
+    .page-product .action .download .content .download-icon { 
         width: 10px;
         height: 10px;
     }
     
-    .page .action .download .content .download-icon path {
+    .page-product .action .download .content .download-icon path {
         fill: var(--valueText);
     }
     
-    .page .action .download .content .download-count {
+    .page-product .action .download .content .download-count {
         font-size: 14px;
         font-weight: 600;
         color: var(--valueText);
     }
     
-    .page .action .download .content a {
+    .page-product .action .download .content a {
         font-size: 14px;
         font-weight: 600;
         text-decoration: underline;
         color: var(--accent);
     }
     
-    .page .action .download .content a:hover {
+    .page-product .action .download .content a:hover {
         color: var(--text);
     }
     
-    .page .action .details {
+    .page-product .action .details {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
     
-    .page .action .details h2 {
+    .page-product .action .details h2 {
         margin-top: 5px;
         margin-bottom: 2px;
     
@@ -785,7 +785,7 @@ body { background-color: #ffffff }
         color: var(--categoryText);
     }
     
-    .page .action .details p {
+    .page-product .action .details p {
         display: flex;
         justify-content: space-between;
     
@@ -794,11 +794,11 @@ body { background-color: #ffffff }
         color: var(--valueText);
     }
     
-    .page .action .details p span {
+    .page-product .action .details p span {
         color: var(--profileText);
     }
     
-    .page .action .bugreport {
+    .page-product .action .bugreport {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -809,20 +809,20 @@ body { background-color: #ffffff }
         bottom: 0px;
     }
     
-    .page .action .bugreport p {
+    .page-product .action .bugreport p {
         font-size: 14px;
         font-weight: 600;
         color: var(--valueText);
     }
     
-    .page .action .bugreport a {
+    .page-product .action .bugreport a {
         font-size: 12px;
         font-weight: 600;
         text-decoration: underline;
         color: var(--accent);
     }
     
-    .page .action .bugreport a:hover {
+    .page-product .action .bugreport a:hover {
         color: var(--text);
     }
     
@@ -831,7 +831,7 @@ body { background-color: #ffffff }
     
     
     
-    .page .information .navigation {
+    .page-product .information .navigation {
         display: flex;
         flex-direction: row;
         justify-content: left;
@@ -846,13 +846,13 @@ body { background-color: #ffffff }
         border-bottom: 1px solid var(--frameBorder);
     }
     
-    .page .information .navigation button.active {
+    .page-product .information .navigation button.active {
         border-bottom: 2px solid var(--accent);
         color: var(--accent);
         transition: ease 0.1s;
     }
     
-    .page .information .navigation button {
+    .page-product .information .navigation button {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -871,13 +871,13 @@ body { background-color: #ffffff }
         transition: ease 0.1s;
     }
     
-    .page .information .navigation button:hover {
+    .page-product .information .navigation button:hover {
         border-bottom: 2px solid var(--accent);
         color: var(--accent);
         transition: ease 0.1s;
     }
     
-    .page .information .section {
+    .page-product .information .section {
         display: none;
         flex-direction: column;
         gap: 25px;
@@ -885,11 +885,11 @@ body { background-color: #ffffff }
         padding: 15px 40px;
     }
     
-    .page .information .active {
+    .page-product .information .active {
         display: flex;
     }
     
-    .page .information .section p {
+    .page-product .information .section p {
         font-size: 14px;
         font-weight: 400;
         color: var(--description);
@@ -897,7 +897,7 @@ body { background-color: #ffffff }
     
     
     
-    .page .information .overview h1 {
+    .page-product .information .overview h1 {
         margin-bottom: 5px;
     
         font-size: 14.5px;
@@ -905,7 +905,7 @@ body { background-color: #ffffff }
         color: var(--descriptionSubTitle);
     }
     
-    .page .information .overview h2 {
+    .page-product .information .overview h2 {
         margin-top: 25px;
         margin-bottom: 5px;
         
@@ -916,7 +916,7 @@ body { background-color: #ffffff }
     
     
     
-    .page .information .installation .line {
+    .page-product .information .installation .line {
         display: flex;
         flex-direction: row;
         justify-content: left;
@@ -926,7 +926,7 @@ body { background-color: #ffffff }
         margin-top: 8px;
     }
     
-    .page .information .installation .step {
+    .page-product .information .installation .step {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -942,11 +942,11 @@ body { background-color: #ffffff }
         color: var(--text);
     }
     
-    .page .information .installation b {
+    .page-product .information .installation b {
         color: var(--descriptionBold);
     }
     
-    .page .information .installation h1 {
+    .page-product .information .installation h1 {
         margin-bottom: 20px;
     
         font-size: 18px;
@@ -954,19 +954,19 @@ body { background-color: #ffffff }
         color: var(--descriptionTitle);
     }
     
-    .page .information .installation h2 {    
+    .page-product .information .installation h2 {    
         font-size: 15px;
         font-weight: 700;
         color: var(--descriptionSubTitle);
     }
     
-    .page .information a {
+    .page-product .information a {
         font-weight: 500;
         text-decoration: underline;
         color: var(--accent);
     }
     
-    .page .information a:hover {
+    .page-product .information a:hover {
         color: var(--text);
     }
 }

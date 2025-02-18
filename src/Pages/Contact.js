@@ -51,8 +51,7 @@ function RenderContactPage() {
     }
 
     return (
-        <Fragment>
-            <div class="page">
+        <div class="page-contact">
                 <div class="contact">
                     <div class="wrapper">
                         <h1>Contact Us</h1>
@@ -138,11 +137,6 @@ function RenderContactPage() {
                     <sup>Only eligible for people above the age of 13</sup>
                 </div>
             </div>
-
-            {/* <div class="background">
-                <img src="imgs/backgroundPatternPS.png" />
-            </div> */}
-        </Fragment>
     );
 }
 

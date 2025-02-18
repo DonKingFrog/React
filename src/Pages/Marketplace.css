@@ -1,7 +1,7 @@
 body { background-color: #ffffff }
 
 @media screen and (min-width: 200px) and (max-width: 1080px) {
-    .page {
+    .page-marketplace {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -16,7 +16,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #filtersButton {
+    .page-marketplace #filtersButton {
         display: flex;
         flex-direction: row;
         align-items: start;
@@ -31,12 +31,12 @@ body { background-color: #ffffff }
         color: var(--text);
     }
 
-    #filtersButton svg {
+    .page-marketplace #filtersButton svg {
         width: 20px;
         height: 20px;
     }
 
-    #filters {
+    .page-marketplace #filters {
         display: none;
         flex-direction: column;
         gap: 20px;
@@ -54,7 +54,7 @@ body { background-color: #ffffff }
         z-index: 99;
     }
 
-    #filters section {
+    .page-marketplace #filters section {
         display: flex;
         flex-direction: column;
         gap: 25px;
@@ -70,7 +70,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #filters #title {
+    .page-marketplace #filters #title {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -86,7 +86,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #filters #title div {
+    .page-marketplace #filters #title div {
         display: flex;
         flex-direction: row;
         justify-content: right;
@@ -100,7 +100,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #filters #title #reset {
+    .page-marketplace #filters #title #reset {
         padding: 5px 15px;
 
         background-color: #ffffff;
@@ -114,17 +114,17 @@ body { background-color: #ffffff }
         cursor: pointer;
     }
 
-    #filters #title #close {
+    .page-marketplace #filters #title #close {
         background: transparent;
         outline: none; border: none;
     }
 
-    #filters #title #close svg {
+    .page-marketplace #filters #title #close svg {
         width: 20px;
         height: 20px;
     }
 
-    #filters .card {
+    .page-marketplace #filters .card {
         display: flex; 
         flex-direction: column;
         gap: 20px;
@@ -137,7 +137,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #filters .card .top {
+    .page-marketplace #filters .card .top {
         display: flex;
         flex-direction: row;
         justify-content: left;
@@ -157,17 +157,17 @@ body { background-color: #ffffff }
         cursor: pointer;
     }
 
-    #filters .card .top svg {
+    .page-marketplace #filters .card .top svg {
         width: 12px;
     }
 
-    #filters .card.collapsed .top svg {
+    .page-marketplace #filters .card.collapsed .top svg {
         rotate: -90deg;
     }
 
-    #filters .card .top svg path { fill: var(--title) }
+    .page-marketplace #filters .card .top svg path { fill: var(--title) }
 
-    #filters .card .container {
+    .page-marketplace #filters .card .container {
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -176,11 +176,11 @@ body { background-color: #ffffff }
         padding: 0 11px;
     }
 
-    #filters .card.collapsed .container {
+    .page-marketplace #filters .card.collapsed .container {
         display: none;
     }
 
-    #filters .card .container button {
+    .page-marketplace #filters .card .container button {
         display: flex;
         flex-direction: row;
         align-items: start;
@@ -200,38 +200,38 @@ body { background-color: #ffffff }
         cursor: pointer;
     }
 
-    #filters .card .container button.active {
+    .page-marketplace #filters .card .container button.active {
         background: var(--activeSelectionBackground);
         color: var(--activeSelectionText);
     }
 
-    #filters #rating .container {
+    .page-marketplace #filters #rating .container {
         gap: 10px;
     }
 
-    #filters #rating .container div {
+    .page-marketplace #filters #rating .container div {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 5px;
     }
 
-    #filters #rating .container div input {
+    .page-marketplace #filters #rating .container div input {
         width: 25px;
         height: 25px;
         cursor: pointer;
     }
 
-    #filters #rating .container div svg {
+    .page-marketplace #filters #rating .container div svg {
         width: 30px;
         height: 30px;
     }
 
-    #filters.active {
+    .page-marketplace #filters.active {
         display: flex;
     }
 
-    #catalogue {
+    .page-marketplace #catalogue {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -246,7 +246,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #product {
+    .page-marketplace #product {
         display: flex;
         flex-direction: column;
         
@@ -265,7 +265,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #product img {
+    .page-marketplace #product img {
         width: 100%;
         height: 178px;
 
@@ -273,7 +273,7 @@ body { background-color: #ffffff }
         object-fit: cover;
     }
 
-    #product .content {
+    .page-marketplace #product .content {
         display: flex;
         flex-direction: column;
         gap: 5px;
@@ -287,7 +287,7 @@ body { background-color: #ffffff }
         color: var(--text); 
     }
 
-    #product .content .rating {
+    .page-marketplace #product .content .rating {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -301,24 +301,24 @@ body { background-color: #ffffff }
         color: var(--reviewText); 
     }
 
-    #product .content .rating svg {
+    .page-marketplace #product .content .rating svg {
         width: 18px;
         height: 18px;
     }
 
-    #product .content .rating svg path {
+    .page-marketplace #product .content .rating svg path {
         fill: var(--starBackground); 
         stroke: var(--starBackground);
     }
 
-    #product .content .rating .full path {
+    .page-marketplace #product .content .rating .full path {
         fill: var(--fullStar); 
         stroke: var(--fullStar);
     }
 }
 
 @media screen and (min-width: 1081px) {
-    .page {
+    .page-marketplace {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -334,11 +334,11 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #filtersButton {
+    .page-marketplace#filtersButton {
         display: none;
     }
 
-    #filters {
+    .page-marketplace#filters {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -352,7 +352,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #filters section {
+    .page-marketplace#filters section {
         display: flex;
         flex-direction: column;
         gap: 25px;
@@ -368,7 +368,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #filters #title {
+    .page-marketplace #filters #title {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -384,7 +384,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #filters #title #reset {
+    .page-marketplace #filters #title #reset {
         padding: 5px 15px;
 
         background-color: #ffffff;
@@ -398,11 +398,11 @@ body { background-color: #ffffff }
         cursor: pointer;
     }
 
-    #filters #title #close {
+    .page-marketplace #filters #title #close {
         display: none;
     }
 
-    #filters .card {
+    .page-marketplace #filters .card {
         display: flex; 
         flex-direction: column;
         gap: 20px;
@@ -415,7 +415,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #filters .card .top {
+    .page-marketplace #filters .card .top {
         display: flex;
         flex-direction: row;
         justify-content: left;
@@ -435,17 +435,17 @@ body { background-color: #ffffff }
         cursor: pointer;
     }
 
-    #filters .card .top svg {
+    .page-marketplace #filters .card .top svg {
         width: 12px;
     }
 
-    #filters .card.collapsed .top svg {
+    .page-marketplace #filters .card.collapsed .top svg {
         rotate: -90deg;
     }
 
-    #filters .card .top svg path { fill: var(--title) }
+    .page-marketplace #filters .card .top svg path { fill: var(--title) }
 
-    #filters .card .container {
+    .page-marketplace #filters .card .container {
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -454,11 +454,11 @@ body { background-color: #ffffff }
         padding: 0 11px;
     }
 
-    #filters .card.collapsed .container {
+    .page-marketplace #filters .card.collapsed .container {
         display: none;
     }
 
-    #filters .card .container button {
+    .page-marketplace #filters .card .container button {
         display: flex;
         flex-direction: row;
         align-items: start;
@@ -478,32 +478,32 @@ body { background-color: #ffffff }
         cursor: pointer;
     }
 
-    #filters .card .container button.active {
+    .page-marketplace #filters .card .container button.active {
         background: var(--activeSelectionBackground);
         color: var(--activeSelectionText);
     }
 
-    #filters #rating .container {
+    .page-marketplace #filters #rating .container {
         gap: 10px;
     }
 
-    #filters #rating .container div {
+    .page-marketplace #filters #rating .container div {
         display: flex;
         flex-direction: row;
         gap: 5px;
     }
 
-    #filters #rating .container div input {
+    .page-marketplace #filters #rating .container div input {
         width: 15px;
         cursor: pointer;
     }
 
-    #filters #rating .container div svg {
+    .page-marketplace #filters #rating .container div svg {
         width: 20px;
         height: 20px;
     }
 
-    #catalogue {
+    .page-marketplace #catalogue {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -516,7 +516,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #product {
+    .page-marketplace #product {
         display: flex;
         flex-direction: column;
         
@@ -533,7 +533,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    #product img {
+    .page-marketplace #product img {
         width: 100%;
         height: 178px;
 
@@ -541,7 +541,7 @@ body { background-color: #ffffff }
         object-fit: cover;
     }
 
-    #product .content {
+    .page-marketplace #product .content {
         display: flex;
         flex-direction: column;
         gap: 5px;
@@ -555,7 +555,7 @@ body { background-color: #ffffff }
         color: var(--text); 
     }
 
-    #product .content .rating {
+    .page-marketplace #product .content .rating {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -569,17 +569,17 @@ body { background-color: #ffffff }
         color: var(--reviewText); 
     }
 
-    #product .content .rating svg {
+    .page-marketplace #product .content .rating svg {
         width: 18px;
         height: 18px;
     }
 
-    #product .content .rating svg path {
+    .page-marketplace #product .content .rating svg path {
         fill: var(--starBackground); 
         stroke: var(--starBackground);
     }
 
-    #product .content .rating .full path {
+    .page-marketplace #product .content .rating .full path {
         fill: var(--fullStar); 
         stroke: var(--fullStar);
     }

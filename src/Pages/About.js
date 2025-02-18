@@ -20,7 +20,7 @@ function RenderAboutPage() {
     })
 
     return (
-        <div class="page">
+        <div class="page-about">
             <section id="about">
                 <h1>About Us</h1>
                 {/* <p>Dev Equip was founded by Donavan, following his resignment from Bangkok Entertainment, a Roblox EDM concert group. Is now a company specialized in donation boards and administrator panels.</p> */}

@@ -1,5 +1,5 @@
 @media screen and (min-width: 200px) and (max-width: 1080px) {
-    .page {
+    .page-contact {
         display: flex;
         flex-direction: column;
         gap: 75px;
@@ -8,7 +8,7 @@
         box-sizing: border-box;
     }
     
-    .page .contact { 
+    .page-contact .contact { 
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -21,7 +21,7 @@
         transition: 0.3s;
     }
     
-    .page .discord {
+    .page-contact .discord {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -38,11 +38,11 @@
         transition: 0.3s;
     }
     
-    .page .or {
+    .page-contact .or {
         width: 100%;
     }
     
-    .page h1 {
+    .page-contact h1 {
         margin-bottom: 5px;
 
         font-size: 30px;
@@ -50,13 +50,13 @@
         color: var(--text);
     }
     
-    .page p {
+    .page-contact p {
         font-size: 18px;
         font-weight: 600;
         color: var(--secondaryText);
     }
     
-    .page sup {
+    .page-contact sup {
         width: 100%;
 
         font-size: 14px;
@@ -65,7 +65,7 @@
         text-align: center;
     }
     
-    .page .container { 
+    .page-contact .container { 
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -76,7 +76,7 @@
     }
     
     
-    .page .inputbox {
+    .page-contact .inputbox {
         position: relative;
         width: 100%;
     
@@ -88,7 +88,7 @@
         transition: 0.3s;
     }
     
-    .page .inputbox .content {
+    .page-contact .inputbox .content {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -101,7 +101,7 @@
         z-index: 1;
     }
     
-    .page .inputbox svg {
+    .page-contact .inputbox svg {
         width: 20px;
         height: 20px;
         padding: 8px;
@@ -113,24 +113,24 @@
         transition: 0.3s;
     }
     
-    .page .inputbox.active svg {
+    .page-contact .inputbox.active svg {
         background-color: var(--accent);
     
         transition: 0.3s;
     }
     
-    .page .inputbox svg path {
+    .page-contact .inputbox svg path {
         fill: #bababa;
         transition: 0.3s;
     }
     
-    .page .inputbox.active svg path {
+    .page-contact .inputbox.active svg path {
         fill: #ffffff;
     
         transition: 0.3s;
     }
     
-    .page .inputbox p {
+    .page-contact .inputbox p {
         position: absolute;
         left: 60px;
     
@@ -142,7 +142,7 @@
         transition: 0.3s;
     }
     
-    .page .inputbox.active p {
+    .page-contact .inputbox.active p {
         transform: translateY(-55%);
     
         font-size: 14px;
@@ -153,7 +153,7 @@
         transition: 0.3s;
     }
     
-    .page .inputbox input {
+    .page-contact .inputbox input {
         position: absolute;
         top: 0; left: 0;
         width: 100%;
@@ -172,7 +172,7 @@
         transition: 0.3s;
     }
     
-    .page .inputbox.active input {
+    .page-contact .inputbox.active input {
         padding: 16px 0 0 60px;
         transition: 0.3s;
     }
@@ -184,7 +184,7 @@
     
     
     
-    .page .dropdownbox {
+    .page-contact .dropdownbox {
         position: relative;
         width: 100%;
     
@@ -198,7 +198,7 @@
         cursor: pointer;
     }
     
-    .page .dropdownbox .content {
+    .page-contact .dropdownbox .content {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -211,7 +211,7 @@
         z-index: 1;
     }
     
-    .page .dropdownbox svg {
+    .page-contact .dropdownbox svg {
         width: 20px;
         height: 20px;
         padding: 8px;
@@ -223,24 +223,24 @@
         transition: 0.3s;
     }
     
-    .page .dropdownbox svg path {
+    .page-contact .dropdownbox svg path {
         fill: #bababa;
         transition: 0.3s;
     }
     
-    .page .dropdownbox svg {
+    .page-contact .dropdownbox svg {
         background-color: var(--accent);
     
         transition: 0.3s;
     }
     
-    .page .dropdownbox svg path {
+    .page-contact .dropdownbox svg path {
         fill: #ffffff;
     
         transition: 0.3s;
     }
     
-    .page .dropdownbox p {
+    .page-contact .dropdownbox p {
         transform: translateY(-55%);
     
         font-size: 14px;
@@ -251,7 +251,7 @@
         transition: 0.3s;
     }
     
-    .page .dropdownbox .input {
+    .page-contact .dropdownbox .input {
         position: absolute;
         bottom: 0px; left: 0;
         padding: 0 0 0 60px;
@@ -268,11 +268,11 @@
         transition: 0.3s;
     }
     
-    .page .dropdownbox .dropdown {
+    .page-contact .dropdownbox .dropdown {
         display: none;
     }
     
-    .page .dropdownbox.active .dropdown {
+    .page-contact .dropdownbox.active .dropdown {
         display: flex;
         flex-direction: column;
         
@@ -289,7 +289,7 @@
         z-index: 1;
     }
     
-    .page .dropdownbox.active .dropdown button {
+    .page-contact .dropdownbox.active .dropdown button {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -305,11 +305,11 @@
         cursor: pointer;
     }
     
-    .page .dropdownbox.active .dropdown button:hover {
+    .page-contact .dropdownbox.active .dropdown button:hover {
         background-color: var(--background);
     }
     
-    .page .dropdownbox.active .dropdown button p {
+    .page-contact .dropdownbox.active .dropdown button p {
         transform: none;
     
         text-align: left;
@@ -318,7 +318,7 @@
         color: var(--text);
     }
     
-    .page .dropdownbox.active .dropdown button svg {
+    .page-contact .dropdownbox.active .dropdown button svg {
         width: 20px;
         height: 20px;
         padding: 8px;
@@ -330,22 +330,22 @@
         transition: 0.3s;
     }
     
-    .page .dropdownbox.active .dropdown button svg path {
+    .page-contact .dropdownbox.active .dropdown button svg path {
         fill: #bababa;
         transition: 0.3s;
     }
     
-    .page .dropdownbox.active .dropdown button:hover svg {
+    .page-contact .dropdownbox.active .dropdown button:hover svg {
         background-color: var(--accent);
         transition: 0.3s;
     }
     
-    .page .dropdownbox.active .dropdown button:hover svg path {
+    .page-contact .dropdownbox.active .dropdown button:hover svg path {
         fill: #ffffff;
         transition: 0.3s;
     }
     
-    .page .dropdownbox .content .caret {
+    .page-contact .dropdownbox .content .caret {
         position: absolute;
         right: 15px;
         width: 10px;
@@ -353,11 +353,11 @@
         background: transparent;
     }
     
-    .page .dropdownbox.active .content .caret {
+    .page-contact .dropdownbox.active .content .caret {
         rotate: -180deg;
     }
     
-    .page .dropdownbox .content .caret path {
+    .page-contact .dropdownbox .content .caret path {
         fill: var(--secondaryText);
     }
     
@@ -365,7 +365,7 @@
     
     
     
-    .page .message {
+    .page-contact .message {
         resize: none;
     
         display: inline-block;
@@ -388,13 +388,13 @@
         transition: 0.3s;
     }
     
-    .page .message:hover {
+    .page-contact .message:hover {
         border: 1px solid var(--accent);
     
         transition: 0.3s;
     }
     
-    .page .message::placeholder {
+    .page-contact .message::placeholder {
         font-size: 16px;
         font-weight: 400;
         color: #aaaaaa;
@@ -405,7 +405,7 @@
     
     
     
-    .page .send {
+    .page-contact .send {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -423,17 +423,17 @@
         cursor: pointer;
     }
     
-    .page .send:hover {
+    .page-contact .send:hover {
         background-color: var(--darkAccent);
     
         transition: 0.35s;
     }
         
-    .page .send img {
+    .page-contact .send img {
         width: 15px;
     }
     
-    .page .send svg {
+    .page-contact .send svg {
         width: 15px;
         height: 15px;
         
@@ -442,7 +442,7 @@
         color: var(--buttonText);
     }
     
-    .page .send p {
+    .page-contact .send p {
         width: auto;
         height: auto;
         
@@ -451,11 +451,11 @@
         color: var(--buttonText);
     }
     
-    a:has(> .join) {   
+    .page-contact a:has(> .join) {   
         width: 100%;
     }
     
-    .page .join {
+    .page-contact .join {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -475,17 +475,17 @@
         cursor: pointer;
     }
     
-    .page .join:hover {
+    .page-contact .join:hover {
         background-color: var(--darkAccent);
     
         transition: 0.35s;
     }
         
-    .page .join img {
+    .page-contact .join img {
         width: 15px;
     }
     
-    .page .join svg {
+    .page-contact .join svg {
         width: 15px;
         height: 15px;
         
@@ -494,7 +494,7 @@
         color: var(--buttonText);
     }
     
-    .page .join p {
+    .page-contact .join p {
         width: auto;
         height: auto;
         
@@ -503,19 +503,13 @@
         color: var(--buttonText);
     }
     
-    .page .or {
+    .page-contact .or {
         width: 100%;
         text-align: center;
         color: var(--text);
     }
     
-    
-    
-    
-    
-    
-    
-    .background {
+    .page-contact .background {
         position: absolute;
         top: 25px; left: 0; 
         width: 100%;
@@ -525,7 +519,7 @@
         z-index: -1;
     }
     
-    .background img {
+    .page-contact .background img {
         left: -2px;
         width: 100%;
     
@@ -534,7 +528,7 @@
 }
 
 @media screen and (min-width: 1081px) {
-    .page {
+    .page-contact {
         display: flex;
         flex-direction: row;
         justify-content: space-between ;
@@ -545,7 +539,7 @@
         box-sizing: border-box;
     }
     
-    .page .contact { 
+    .page-contact .contact { 
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -557,7 +551,7 @@
         transition: 0.3s;
     }
     
-    .page .discord {
+    .page-contact .discord {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -574,34 +568,34 @@
         transition: 0.3s;
     }
     
-    .page .or {
+    .page-contact .or {
         height: 100%;
     }
     
-    .page h1 {
+    .page-contact h1 {
         font-size: 50px;
         font-weight: 700;
         color: var(--text);
     }
     
-    .page p {
+    .page-contact p {
         font-size: 22px;
         font-weight: 600;
         color: var(--secondaryText);
     }
     
-    .page sup {
+    .page-contact sup {
         font-size: 14px;
         font-weight: 400;
         color: var(--secondaryText);
         text-align: center;
     }
     
-    .page .wrapper {
+    .page-contact .wrapper {
         margin-left: 8px;
     }
     
-    .page .container {
+    .page-contact .container {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -612,7 +606,7 @@
     
     
     
-    .page .inputbox {
+    .page-contact .inputbox {
         position: relative;
         width: 500px;
     
@@ -624,7 +618,7 @@
         transition: 0.3s;
     }
     
-    .page .inputbox .content {
+    .page-contact .inputbox .content {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -637,7 +631,7 @@
         z-index: 1;
     }
     
-    .page .inputbox svg {
+    .page-contact .inputbox svg {
         width: 20px;
         height: 20px;
         padding: 8px;
@@ -649,24 +643,24 @@
         transition: 0.3s;
     }
     
-    .page .inputbox.active svg {
+    .page-contact .inputbox.active svg {
         background-color: var(--accent);
     
         transition: 0.3s;
     }
     
-    .page .inputbox svg path {
+    .page-contact .inputbox svg path {
         fill: #bababa;
         transition: 0.3s;
     }
     
-    .page .inputbox.active svg path {
+    .page-contact .inputbox.active svg path {
         fill: #ffffff;
     
         transition: 0.3s;
     }
     
-    .page .inputbox p {
+    .page-contact .inputbox p {
         position: absolute;
         left: 60px;
     
@@ -678,7 +672,7 @@
         transition: 0.3s;
     }
     
-    .page .inputbox.active p {
+    .page-contact .inputbox.active p {
         transform: translateY(-55%);
     
         font-size: 14px;
@@ -689,7 +683,7 @@
         transition: 0.3s;
     }
     
-    .page .inputbox input {
+    .page-contact .inputbox input {
         position: absolute;
         top: 0; left: 0;
         width: 100%;
@@ -708,7 +702,7 @@
         transition: 0.3s;
     }
     
-    .page .inputbox.active input {
+    .page-contact .inputbox.active input {
         padding: 16px 0 0 60px;
         transition: 0.3s;
     }
@@ -720,7 +714,7 @@
     
     
     
-    .page .dropdownbox {
+    .page-contact .dropdownbox {
         position: relative;
         width: 500px;
     
@@ -734,7 +728,7 @@
         cursor: pointer;
     }
     
-    .page .dropdownbox .content {
+    .page-contact .dropdownbox .content {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -747,7 +741,7 @@
         z-index: 1;
     }
     
-    .page .dropdownbox svg {
+    .page-contact .dropdownbox svg {
         width: 20px;
         height: 20px;
         padding: 8px;
@@ -759,24 +753,24 @@
         transition: 0.3s;
     }
     
-    .page .dropdownbox svg path {
+    .page-contact .dropdownbox svg path {
         fill: #bababa;
         transition: 0.3s;
     }
     
-    .page .dropdownbox svg {
+    .page-contact .dropdownbox svg {
         background-color: var(--accent);
     
         transition: 0.3s;
     }
     
-    .page .dropdownbox svg path {
+    .page-contact .dropdownbox svg path {
         fill: #ffffff;
     
         transition: 0.3s;
     }
     
-    .page .dropdownbox p {
+    .page-contact .dropdownbox p {
         transform: translateY(-55%);
     
         font-size: 14px;
@@ -787,7 +781,7 @@
         transition: 0.3s;
     }
     
-    .page .dropdownbox .input {
+    .page-contact .dropdownbox .input {
         position: absolute;
         bottom: 0px; left: 0;
         padding: 0 0 0 60px;
@@ -804,11 +798,11 @@
         transition: 0.3s;
     }
     
-    .page .dropdownbox .dropdown {
+    .page-contact .dropdownbox .dropdown {
         display: none;
     }
     
-    .page .dropdownbox.active .dropdown {
+    .page-contact .dropdownbox.active .dropdown {
         display: flex;
         flex-direction: column;
         
@@ -825,7 +819,7 @@
         z-index: 1;
     }
     
-    .page .dropdownbox.active .dropdown button {
+    .page-contact .dropdownbox.active .dropdown button {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -841,11 +835,11 @@
         cursor: pointer;
     }
     
-    .page .dropdownbox.active .dropdown button:hover {
+    .page-contact .dropdownbox.active .dropdown button:hover {
         background-color: var(--background);
     }
     
-    .page .dropdownbox.active .dropdown button p {
+    .page-contact .dropdownbox.active .dropdown button p {
         transform: none;
     
         text-align: left;
@@ -854,7 +848,7 @@
         color: var(--text);
     }
     
-    .page .dropdownbox.active .dropdown button svg {
+    .page-contact .dropdownbox.active .dropdown button svg {
         width: 20px;
         height: 20px;
         padding: 8px;
@@ -866,22 +860,22 @@
         transition: 0.3s;
     }
     
-    .page .dropdownbox.active .dropdown button svg path {
+    .page-contact .dropdownbox.active .dropdown button svg path {
         fill: #bababa;
         transition: 0.3s;
     }
     
-    .page .dropdownbox.active .dropdown button:hover svg {
+    .page-contact .dropdownbox.active .dropdown button:hover svg {
         background-color: var(--accent);
         transition: 0.3s;
     }
     
-    .page .dropdownbox.active .dropdown button:hover svg path {
+    .page-contact .dropdownbox.active .dropdown button:hover svg path {
         fill: #ffffff;
         transition: 0.3s;
     }
     
-    .page .dropdownbox .content .caret {
+    .page-contact .dropdownbox .content .caret {
         position: absolute;
         right: 15px;
         width: 10px;
@@ -889,11 +883,11 @@
         background: transparent;
     }
     
-    .page .dropdownbox.active .content .caret {
+    .page-contact .dropdownbox.active .content .caret {
         rotate: -180deg;
     }
     
-    .page .dropdownbox .content .caret path {
+    .page-contact .dropdownbox .content .caret path {
         fill: var(--secondaryText);
     }
     
@@ -901,7 +895,7 @@
     
     
     
-    .page .message {
+    .page-contact .message {
         resize: none;
     
         display: inline-block;
@@ -924,13 +918,13 @@
         transition: 0.3s;
     }
     
-    .page .message:hover {
+    .page-contact .message:hover {
         border: 1px solid var(--accent);
     
         transition: 0.3s;
     }
     
-    .page .message::placeholder {
+    .page-contact .message::placeholder {
         font-size: 16px;
         font-weight: 400;
         color: #aaaaaa;
@@ -941,7 +935,7 @@
     
     
     
-    .page .send {
+    .page-contact .send {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -958,17 +952,17 @@
         cursor: pointer;
     }
     
-    .page .send:hover {
+    .page-contact .send:hover {
         background-color: var(--darkAccent);
     
         transition: 0.35s;
     }
         
-    .page .send img {
+    .page-contact .send img {
         width: 15px;
     }
     
-    .page .send svg {
+    .page-contact .send svg {
         width: 15px;
         height: 15px;
         
@@ -977,7 +971,7 @@
         color: var(--buttonText);
     }
     
-    .page .send p {
+    .page-contact .send p {
         width: auto;
         height: auto;
         
@@ -988,7 +982,7 @@
     
     
     
-    .page .join {
+    .page-contact .join {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1008,17 +1002,17 @@
         cursor: pointer;
     }
     
-    .page .join:hover {
+    .page-contact .join:hover {
         background-color: var(--darkAccent);
     
         transition: 0.35s;
     }
         
-    .page .join img {
+    .page-contact .join img {
         width: 15px;
     }
     
-    .page .join svg {
+    .page-contact .join svg {
         width: 15px;
         height: 15px;
         
@@ -1027,7 +1021,7 @@
         color: var(--buttonText);
     }
     
-    .page .join p {
+    .page-contact .join p {
         width: auto;
         height: auto;
         
@@ -1036,7 +1030,7 @@
         color: var(--buttonText);
     }
     
-    .page .or {
+    .page-contact .or {
         color: var(--text);
     }
     
@@ -1046,7 +1040,7 @@
     
     
     
-    .background {
+    .page-contact .background {
         position: absolute;
         top: 25px; left: 0; 
         width: 100%;
@@ -1056,7 +1050,7 @@
         z-index: -1;
     }
     
-    .background img {
+    .page-contact .background img {
         left: -2px;
         width: 100%;
     

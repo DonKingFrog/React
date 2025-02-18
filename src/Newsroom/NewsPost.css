@@ -3,7 +3,7 @@ body {
 }
 
 @media screen and (min-width: 200px) and (max-width: 1080px) {
-    .page {
+    .page-newsroom {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -18,7 +18,7 @@ body {
         box-sizing: border-box;
     }
 
-    .page .back {
+    .page-newsroom .back {
         display: flex;
         flex-direction: row;
         justify-content: left;
@@ -38,31 +38,31 @@ body {
         box-sizing: border-box;
     }
 
-    .page .back p {
+    .page-newsroom .back p {
         font-size: 20px;
         font-weight: 600;
         color: var(--text);
     }
 
-    .page .back svg {
+    .page-newsroom .back svg {
         rotate: 90deg;
         width: 20px;
         height: 20px;
     }
 
-    .page .back svg path {
+    .page-newsroom .back svg path {
         fill: var(--text);
         opacity: 50%;
     }
 
-    .page .title {
+    .page-newsroom .title {
         margin-bottom: 50px;
 
         font-size: 50px;
         color: var(--descriptionSubTitle);
     }
     
-    .page .subtitle {
+    .page-newsroom .subtitle {
         margin-top: 25px;
         margin-bottom: 50px;
 
@@ -70,43 +70,43 @@ body {
         color: var(--descriptionSubTitle);
     }
 
-    .page sub {
+    .page-newsroom sub {
         font-size: 35px;
         font-weight: 500;
         letter-spacing: normal;
         color: var(--description);
     }
     
-    .page a {
+    .page-newsroom a {
         font-weight: 500;
         text-decoration: underline;
         color: var(--accent);
     }
     
-    .page p {
+    .page-newsroom p {
         font-size: 20px;
         font-weight: 400;
         color: var(--description);
     }
 
-    .page b {
+    .page-newsroom b {
         font-size: 20px;
         font-weight: 700;
         color: var(--description);
     }
     
-    .page img {
+    .page-newsroom img {
         width: 100%;
         border: 1px solid var(--frameBorder);
     }
     
-    .page .frame {
+    .page-newsroom .frame {
         background-color: var(--frameBackground);
         border: 1px solid var(--frameBorder);
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
     }
     
-    .page .info {
+    .page-newsroom .info {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -115,19 +115,19 @@ body {
         margin-bottom: 25px;
     }
     
-    .page .info p {
+    .page-newsroom .info p {
         font-size: 18px;
         font-weight: 400;
         color: var(--text);
     }
     
-    .page .info p b {
+    .page-newsroom .info p b {
         font-size: 18px;
         font-weight: 700;
         color: var(--text);
     }
     
-    .page .alt {
+    .page-newsroom .alt {
         margin-top: 15px;
         margin-bottom: 100px;
 
@@ -136,7 +136,7 @@ body {
         color: var(--text);
     }
     
-    .page .___ {
+    .page-newsroom .___ {
         margin-top: 50px;
         margin-bottom: 50px;
         
@@ -146,7 +146,7 @@ body {
         background-color: transparent;
     }
 
-    .page li {
+    .page-newsroom li {
         margin-top: 5px;
         margin-left: 35px;
 
@@ -155,7 +155,7 @@ body {
         color: var(--text);
     }
 
-    .page li ul {
+    .page-newsroom li ul {
         margin-bottom: 25px;
 
         font-size: 18px;
@@ -165,7 +165,7 @@ body {
 }
 
 @media screen and (min-width: 1081px) {
-    .page {
+    .page-newsroom {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -177,50 +177,50 @@ body {
         padding: 125px 300px 0px 0px;
     }
 
-    .page .back {
+    .page-newsroom .back {
         display: none;
         position: absolute;
     }
 
-    .page .title {
+    .page-newsroom .title {
         margin: 0;
         font-size: 30px;
         font-weight: 700;
         color: var(--descriptionSubTitle);
     }
     
-    .page .subtitle {
+    .page-newsroom .subtitle {
         margin-bottom: 12px;
         font-size: 30px;
         font-weight: 700;
         color: var(--descriptionSubTitle);
     }
     
-    .page a {
+    .page-newsroom a {
         font-weight: 500;
         text-decoration: underline;
         color: var(--accent);
     }
     
-    .page p {
+    .page-newsroom p {
         font-weight: 500;
         color: var(--description);
     }
     
-    .page img {
+    .page-newsroom img {
         width: 1000px;
         border-radius: 8px;
         border: 1px solid var(--frameBorder);
     }
     
-    .page .frame {
+    .page-newsroom .frame {
         background-color: var(--frameBackground);
         border: 1px solid var(--frameBorder);
         border-radius: 15px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
     }
     
-    .page .info {
+    .page-newsroom .info {
         display: flex;
         flex-direction: row;
         gap: 50px;
@@ -229,23 +229,23 @@ body {
         margin-bottom: 10px;
     }
     
-    .page .info p {
+    .page-newsroom .info p {
         font-weight: 600;
         color: var(--infoText);
     }
     
-    .page .info p b {
+    .page-newsroom .info p b {
         font-weight: 600;
         color: var(--infoBold);
     }
     
-    .page .alt {
+    .page-newsroom .alt {
         font-size: 16px;
         font-weight: 600;
         color: var(--altText);
     }
     
-    .page .___ {
+    .page-newsroom .___ {
         margin-top: 12px;
         margin-bottom: 50px;
         
@@ -255,16 +255,16 @@ body {
         background-color: var(--frameBorder);
     }
 
-    .page li {
+    .page-newsroom li {
         margin-left: 35px;
     }
 
-    .page li ul {
+    .page-newsroom li ul {
         margin-bottom: 25px;
     }
 }
 
-.failed {
+.page-newsroom-newsroom.failed {
     flex-shrink: 1;
     flex-grow: 1;
 
@@ -278,12 +278,12 @@ body {
     height: 650px;
 }
 
-.failed h1 {
+.page-newsroom-newsroom.failed h1 {
     font-size: 100px;
     color: var(--text);
 }
 
-.failed h2 {
+.page-newsroom-newsroom .failed h2 {
     font-size: 50px;
     color: var(--text);
 }

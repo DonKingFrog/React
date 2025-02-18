@@ -5,8 +5,7 @@ function RenderFAQPage() {
     import ('./FAQ.css');
 
     return (
-        <Fragment>
-            <div class="page">
+<div class="page-faq">
                 <section id="help">
                     <div class="support">
                         <h1>Frequently Asked Questions</h1>
@@ -87,7 +86,6 @@ function RenderFAQPage() {
                     </div>
                 </section>
             </div>
-        </Fragment>
     );
 }
 
