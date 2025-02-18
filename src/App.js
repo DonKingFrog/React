@@ -12,6 +12,7 @@ import RenderAboutPage from './Pages/About.js';
 import RenderFAQPage from './Pages/FAQ.js';
 
 function HomePage() {
+  import("./Pages/Home.css");
   return (
     <Fragment>
       <Navbar />
@@ -22,6 +23,7 @@ function HomePage() {
 }
 
 function MarketplacePage() {
+  import("./Pages/Marketplace.css");
   return (
     <Fragment>
       <Navbar />
@@ -32,6 +34,7 @@ function MarketplacePage() {
 }
 
 function BlogPage() {
+  import("./Pages/Blog.css");
   return (
     <Fragment>
       <Navbar />
@@ -42,6 +45,7 @@ function BlogPage() {
 }
 
 function ContactPage() {
+  import("./Pages/Contact.css");
   return (
     <Fragment>
       <Navbar />
@@ -52,6 +56,7 @@ function ContactPage() {
 }
 
 function NewsroomPage() {
+  import("./Newsroom/NewsPost.css");
   return (
     <Fragment>
       <Navbar />
@@ -62,6 +67,7 @@ function NewsroomPage() {
 }
 
 function ProductPage() {
+  import("./Products/ProductsPage.css");
   return (
     <Fragment>
       <Navbar />
@@ -80,6 +86,7 @@ function DiscordPage() {
 }
 
 function AboutPage() {
+  import("./Pages/About.css");
   return(
     <Fragment>
       <Navbar />
@@ -90,6 +97,7 @@ function AboutPage() {
 }
 
 function FAQPage() {
+  import("./Pages/FAQ.css");
   return(
     <Fragment>
       <Navbar />
