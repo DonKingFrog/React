@@ -2,18 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function RenderMarketplacePage() {
-    function useDynamicStylesheet(href) {
-        useEffect(() => {
-          const link = document.createElement('link');
-          link.rel = 'stylesheet';
-          link.href = href;
-          document.head.appendChild(link);
-      
-          return () => {
-            document.head.removeChild(link);
-          };
-        }, [href]);
-    }; useDynamicStylesheet("./Marketplace.css")
+    import("./Marketplace.css");
     
     const [products, setProducts] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);

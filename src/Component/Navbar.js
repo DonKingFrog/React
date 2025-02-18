@@ -2,18 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
-    function useDynamicStylesheet(href) {
-        useEffect(() => {
-            const link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.href = href;
-            document.head.appendChild(link);
-        
-            return () => {
-            document.head.removeChild(link);
-            };
-        }, [href]);
-    }; useDynamicStylesheet("./Navbar.css")
+   import("./Navbar.css");
 
     const [navbar, setNavbar] = useState(false);
 

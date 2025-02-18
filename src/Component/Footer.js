@@ -2,18 +2,7 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function Footer() {
-    function useDynamicStylesheet(href) {
-        useEffect(() => {
-            const link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.href = href;
-            document.head.appendChild(link);
-        
-            return () => {
-            document.head.removeChild(link);
-            };
-        }, [href]);
-    }; useDynamicStylesheet("./Footer.css")
+    import("./Footer.css");
 
     return (
         <footer>
