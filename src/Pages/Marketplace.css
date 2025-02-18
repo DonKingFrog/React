@@ -334,11 +334,11 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    .page-marketplace#filtersButton {
+    .page-marketplace #filtersButton {
         display: none;
     }
 
-    .page-marketplace#filters {
+    .page-marketplace #filters {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -352,7 +352,7 @@ body { background-color: #ffffff }
         box-sizing: border-box;
     }
 
-    .page-marketplace#filters section {
+    .page-marketplace #filters section {
         display: flex;
         flex-direction: column;
         gap: 25px;
