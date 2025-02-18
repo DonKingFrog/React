@@ -11,15 +11,15 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router basename='/react'>
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/marketplace" element={<MarketplacePage />} />
-      <Route path="/product/:productId" element={<ProductPage />} />
-      <Route path="/blog" element={<BlogPage />} />
-      <Route path="/newsroom/:postId" element={<NewsroomPage />} />
-      <Route path="/contact" element={<ContactPage />} />
-      <Route path="/about" element={<AboutPage />} />
-      <Route path="/faq" element={<FAQPage />} />
-      <Route path="/discord" element={<DiscordPage />} />
+      <Route exact path="/" element={<HomePage />} />
+      <Route exact path="/marketplace" element={<MarketplacePage />} />
+      <Route exact path="/product/:productId" element={<ProductPage />} />
+      <Route exact path="/blog" element={<BlogPage />} />
+      <Route exact path="/newsroom/:postId" element={<NewsroomPage />} />
+      <Route exact path="/contact" element={<ContactPage />} />
+      <Route exact path="/about" element={<AboutPage />} />
+      <Route exact path="/faq" element={<FAQPage />} />
+      <Route exact path="/discord" element={<DiscordPage />} />
     </Routes>
   </Router>
 );
