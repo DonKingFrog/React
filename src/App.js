@@ -12,7 +12,7 @@ import RenderAboutPage from './Pages/About.js';
 import RenderFAQPage from './Pages/FAQ.js';
 
 function HomePage() {
-  useEffect(() => { location.reload() })
+  useEffect(() => { window.reload() })
   
   return (
     <Fragment>
@@ -24,7 +24,7 @@ function HomePage() {
 }
 
 function MarketplacePage() {
-  useEffect(() => { location.reload() })
+  useEffect(() => { window.reload() })
 
   return (
     <Fragment>
@@ -36,7 +36,7 @@ function MarketplacePage() {
 }
 
 function BlogPage() {
-  useEffect(() => { location.reload() })
+  useEffect(() => { window.reload() })
   
   return (
     <Fragment>
@@ -48,7 +48,7 @@ function BlogPage() {
 }
 
 function ContactPage() {
-  useEffect(() => { location.reload() })
+  useEffect(() => { window.reload() })
 
   return (
     <Fragment>
@@ -60,7 +60,7 @@ function ContactPage() {
 }
 
 function NewsroomPage() {
-  useEffect(() => { location.reload() })
+  useEffect(() => { window.reload() })
 
   return (
     <Fragment>
@@ -72,7 +72,7 @@ function NewsroomPage() {
 }
 
 function ProductPage() {
-  useEffect(() => { location.reload() })
+  useEffect(() => { window.reload() })
 
   return (
     <Fragment>
@@ -84,7 +84,7 @@ function ProductPage() {
 }
 
 function DiscordPage() {
-  useEffect(() => { location.reload() })
+  useEffect(() => { window.reload() })
 
   return(
     <Fragment>
@@ -94,7 +94,7 @@ function DiscordPage() {
 }
 
 function AboutPage() {
-  useEffect(() => { location.reload() })
+  useEffect(() => { window.reload() })
 
   return(
     <Fragment>
@@ -106,7 +106,7 @@ function AboutPage() {
 }
 
 function FAQPage() {
-  useEffect(() => { location.reload() })
+  useEffect(() => { window.reload() })
   
   return(
     <Fragment>
