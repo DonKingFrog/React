@@ -13,48 +13,52 @@ const Break = <div class="___"></div>
 function Topic(array) { return (<div class="topic">{SubTitle(array[0])}{array[1]}</div>)  }
 
 
+function Render() {
+    import("./NewsPost.css");
+
+    return(
+        <Fragment>
+            {Back()}
+            {Title("Nexus Dynamics + TopbarPlus Integration")}
+            {Info("Dev Equip", "Dec 18, 2024")}
+            {Thumbnail("https://devequip.com/Resources/Blog/TopbarIntegration.png")}
+            {Alt("Connection with TopbarPlus in Nexus Dynamics v2.0.5")}    
+            <p>One very big problem about Nexus Dynamics has been thje topbar being in places many don't want to be in. Therefore, we're going to sit and talk about our plans to fix this.</p>
+            {Break}
+            
+            {Topic([
+                "What is TopbarPlus?",
+                <Fragment>
+                    <p><a href="https://devforum.roblox.com/t/v3-topbarplus-v300-construct-intuitive-topbar-icons-customise-them-with-themes-dropdowns-captions-labels-and-much-more">TopbarPlus by @ForeverHD</a> is a popular module used to recreate the default topbar that Roblox's made for their menus. They are always on top of your screen and always in sight.</p>
+                    <br />
+                    <p>TopbarPlus allows you to create your own custom buttons to align with Roblox menus so you can have a much cleaner and modern looking game. TopbarPlus will automatically move buttons around to align them unless they aren't made using TopbarPlus.</p>
+                </Fragment>
+            ])}
+            
+            {Break}
+
+            {Topic([
+                "Integration of TopbarPlus to Nexus Dynamics",
+                <Fragment>
+                    <p>We've made it so Nexus Dynamcis will now detect whether your using TopbarPlus in your game. If you are, it'll instead create its topbar icon using TopbarPlus to align itself without overlapping any buttons.</p>
+                    <br />
+                    <p>In settings, you'll get new options that'll give you selections of topbar alignment (left | center | right) along with some customization of the button itself.</p>
+                    <br />
+                    <img class="thumbnail" src="https://devequip.com/Resources/Blog/topbarThumbnail.png" />
+                </Fragment>
+            ])}
+
+            {Break}
+
+            {Topic([
+                "What if I don't use TopbarPlus?",
+                <Fragment>
+                    <p>If you don't use TopbarPlus, Nexus Dynamics will create its own version of TopbarPlus UI for only the parts it needs. You'll still be able to align them to the corners or center and with Roblox Menus</p>
+                </Fragment>
+            ])}
+        </Fragment>
+    );
+}
 
 
-
-export default () => ( 
-    <Fragment>
-        {Back()}
-        {Title("Nexus Dynamics + TopbarPlus Integration")}
-        {Info("Dev Equip", "Dec 18, 2024")}
-        {Thumbnail("https://devequip.com/Resources/Blog/TopbarIntegration.png")}
-        {Alt("Connection with TopbarPlus in Nexus Dynamics v2.0.5")}    
-        <p>One very big problem about Nexus Dynamics has been thje topbar being in places many don't want to be in. Therefore, we're going to sit and talk about our plans to fix this.</p>
-        {Break}
-        
-        {Topic([
-            "What is TopbarPlus?",
-            <Fragment>
-                <p><a href="https://devforum.roblox.com/t/v3-topbarplus-v300-construct-intuitive-topbar-icons-customise-them-with-themes-dropdowns-captions-labels-and-much-more">TopbarPlus by @ForeverHD</a> is a popular module used to recreate the default topbar that Roblox's made for their menus. They are always on top of your screen and always in sight.</p>
-                <br />
-                <p>TopbarPlus allows you to create your own custom buttons to align with Roblox menus so you can have a much cleaner and modern looking game. TopbarPlus will automatically move buttons around to align them unless they aren't made using TopbarPlus.</p>
-            </Fragment>
-        ])}
-        
-        {Break}
-
-        {Topic([
-            "Integration of TopbarPlus to Nexus Dynamics",
-            <Fragment>
-                <p>We've made it so Nexus Dynamcis will now detect whether your using TopbarPlus in your game. If you are, it'll instead create its topbar icon using TopbarPlus to align itself without overlapping any buttons.</p>
-                <br />
-                <p>In settings, you'll get new options that'll give you selections of topbar alignment (left | center | right) along with some customization of the button itself.</p>
-                <br />
-                <img class="thumbnail" src="https://devequip.com/Resources/Blog/topbarThumbnail.png" />
-            </Fragment>
-        ])}
-
-        {Break}
-
-        {Topic([
-            "What if I don't use TopbarPlus?",
-            <Fragment>
-                <p>If you don't use TopbarPlus, Nexus Dynamics will create its own version of TopbarPlus UI for only the parts it needs. You'll still be able to align them to the corners or center and with Roblox Menus</p>
-            </Fragment>
-        ])}
-    </Fragment>
-);
+export default Render();

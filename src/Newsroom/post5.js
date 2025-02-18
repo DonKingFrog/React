@@ -13,43 +13,47 @@ const Break = <div class="___"></div>
 function Topic(array) { return (<div class="topic">{SubTitle(array[0])}{array[1]}</div>)  }
 
 
+function Render() {
+    import("./NewsPost.css");
+
+    return(
+        <Fragment>
+            {Back()}
+            {Title("Donation Board Hotfix v3.2.5")}
+            {Info("Dev Equip", "Jan 4, 2025")}
+            {Thumbnail("https://devequip.com/Resources/Blog/dbboard2.jpg")}
+            <br />
+            {Topic([
+                "CHANGES",
+                <Fragment>
+                    <ul>
+                        <li>Developer products with an invaid ID will no longer be displayed.</li>
+                    </ul>
+                </Fragment>
+            ])}
+
+            {Break}
+
+            {Topic([
+                "FIXES",
+                <Fragment>
+                    <ul>
+                        <li>
+                            Correctly configured the following themes:
+                            <ul>
+                                <li><b>Dev Equip Theme</b></li>
+                                <li><b>Hacker Theme</b></li>
+                                <li><b>Custom Theme</b></li>
+                            </ul>
+                        </li>
+
+                        <li>Rigs will no longer disappear after theme failures.</li>
+                    </ul>
+                </Fragment>
+            ])}
+        </Fragment>
+    );
+}
 
 
-
-export default () => (
-    <Fragment>
-        {Back()}
-        {Title("Donation Board Hotfix v3.2.5")}
-        {Info("Dev Equip", "Jan 4, 2025")}
-        {Thumbnail("https://devequip.com/Resources/Blog/dbboard2.jpg")}
-        <br />
-        {Topic([
-            "CHANGES",
-            <Fragment>
-                <ul>
-                    <li>Developer products with an invaid ID will no longer be displayed.</li>
-                </ul>
-            </Fragment>
-        ])}
-
-        {Break}
-
-        {Topic([
-            "FIXES",
-            <Fragment>
-                <ul>
-                    <li>
-                        Correctly configured the following themes:
-                        <ul>
-                            <li><b>Dev Equip Theme</b></li>
-                            <li><b>Hacker Theme</b></li>
-                            <li><b>Custom Theme</b></li>
-                        </ul>
-                    </li>
-
-                    <li>Rigs will no longer disappear after theme failures.</li>
-                </ul>
-            </Fragment>
-        ])}
-    </Fragment>
-);;
+export default Render();

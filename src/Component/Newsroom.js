@@ -11,6 +11,7 @@ function RenderNewsPost() {
         const loadPost = async () => {
             try {
                 // Dynamically import the post content based on postId
+                import ("../Newsroom/NewsPost.css");
                 const module = await import(`../Newsroom/${postId}.js`);
                 setPostComponent(() => module.default);
                 setIsLoading(false);
@@ -28,8 +29,6 @@ function RenderNewsPost() {
     }
 
     if (error) {
-        import ("../Newsroom/NewsPost.css");
-        
         return (<div class="failed">
             <h1>404</h1>
             <h2>Not Found</h2>
