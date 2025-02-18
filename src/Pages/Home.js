@@ -2,7 +2,18 @@ import React, { Fragment, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 function RenderHomePage() {
-    import ('./Home.css');
+    function useDynamicStylesheet(href) {
+            useEffect(() => {
+              const link = document.createElement('link');
+              link.rel = 'stylesheet';
+              link.href = href;
+              document.head.appendChild(link);
+          
+              return () => {
+                document.head.removeChild(link);
+              };
+            }, [href]);
+        }; useDynamicStylesheet("./Home.css")
 
     useEffect(() => {
         document.querySelector("#preloader").classList.add("loaded");

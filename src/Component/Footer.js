@@ -1,9 +1,21 @@
 import { Link } from 'react-router-dom';
-import styles from "./Footer.css";
 
 function Footer() {
+    function useDynamicStylesheet(href) {
+        useEffect(() => {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = href;
+            document.head.appendChild(link);
+        
+            return () => {
+            document.head.removeChild(link);
+            };
+        }, [href]);
+    }; useDynamicStylesheet("./Footer.css")
+
     return (
-        <footer className={styles.footer}>
+        <footer>
             <div class="cards">
                 <div class="logo">
                     <Link to="/">

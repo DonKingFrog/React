@@ -1,8 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import styles from "./Navbar.css";
 
 function Navbar() {
+    function useDynamicStylesheet(href) {
+        useEffect(() => {
+            const link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = href;
+            document.head.appendChild(link);
+        
+            return () => {
+            document.head.removeChild(link);
+            };
+        }, [href]);
+    }; useDynamicStylesheet("./Navbar.css")
+
     const [navbar, setNavbar] = useState(false);
 
     useEffect(() => {
@@ -12,7 +24,7 @@ function Navbar() {
     })
 
     return (
-        <header class="navbar" className={styles.header}>
+        <header class="navbar">
             <div class="left">
                 <Link to="/">
                     <img src="logo.png" />
