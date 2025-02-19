@@ -2,7 +2,7 @@ import React, { Fragment, useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
 function RenderProductPage() {
-    import ("../Products/ProductsPage.css");
+    import ("./Products.css");
     const { productId } = useParams();
     const [jsonContent, setJsonContent] = useState();
     const [installationGuide, setInstallationGuide] = useState();
