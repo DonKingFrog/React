@@ -55,7 +55,7 @@ function RenderProductPage() {
 
     return (
         <Fragment>
-            <div class="page frame">
+            <div class="page-product frame">
                 {
                     !jsonContent.discontinued ? <Fragment /> : (
                         <div class="discontinued frame">
