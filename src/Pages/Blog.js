@@ -65,7 +65,7 @@ function RenderBlogPage() {
 
 function blogBlock({ redirect, thumbnail, category, title, version, date }) {
     return(
-        <a to={redirect} class="frame">
+        <a href={redirect} class="frame">
             <div class="image">
                 <img src={thumbnail} />
             </div>

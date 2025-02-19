@@ -300,7 +300,7 @@ function CreateProduct(json) {
     json = json.product
 
     return (
-        <a to={json.redirect} id="product">
+        <a href={json.redirect} id="product">
             <img src={json.thumbnail} alt="" />
             <div class="content">
                 {json.name}
