@@ -9,7 +9,7 @@ function Footer() {
             <div class="cards">
                 <div class="logo">
                     <a href="/react/">
-                        <img src="logo.png" alt="" />
+                        <img src="/react/logo.png" alt="" />
                         <h1>DEV EQUIP</h1>
                     </a>
                     <p>Empowering you to become a professional developer.</p>

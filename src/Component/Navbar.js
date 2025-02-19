@@ -16,7 +16,7 @@ function Navbar() {
         <header class="navbar">
             <div class="left">
                 <a href="/react/">
-                    <img src="logo.png" />
+                    <img src="/react/logo.png" />
                     <h1>DEV EQUIP</h1>
                 </a>
 
