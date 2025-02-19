@@ -14,7 +14,7 @@ function RenderFAQPage() {
                     <div class="faq">
                         <button class="faqItem active" onClick={(event) => toggleFAQActive(event)}>
                             <h1>Can I request a feature or suggest improvements?</h1>
-                            <p>Yes! We value your feedback and suggestions. Visist our <Link to="/discord"><p>Join</p></Link> to submit your ideas. Our team reviews all submissions and considers them for the future.</p>
+                            <p>Yes! We value your feedback and suggestions. Visist our <a href="/react/discord"><p>Join</p></a> to submit your ideas. Our team reviews all submissions and considers them for the future.</p>
 
                             <svg id="plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>
                             <svg id="minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
@@ -40,7 +40,7 @@ function RenderFAQPage() {
 
                         <button class="faqItem" onClick={(event) => toggleFAQActive(event)}>
                             <h1>How do I report a bug or issue?</h1>
-                            <p>To report a bug or issue, please visit our <Link to="/discord"><p>Join</p></Link>. Find the Bug Report channel and write a detailed response about the issue you're having. Our team will investigate and address the problem as soon as possible.</p>
+                            <p>To report a bug or issue, please visit our <a href="/react/discord"><p>Join</p></a>. Find the Bug Report channel and write a detailed response about the issue you're having. Our team will investigate and address the problem as soon as possible.</p>
 
                             <svg id="plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"/></svg>
                             <svg id="minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>

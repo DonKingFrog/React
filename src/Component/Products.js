@@ -92,15 +92,15 @@ function RenderProductPage() {
                             </div>
             
                             <div class="download bottom-border">
-                                <Link to={jsonContent.download.href} class="button">
+                                <a href={jsonContent.download.href} class="button">
                                     <p>Download</p>
-                                </Link>
+                                </a>
             
                                 <div class="content">
                                     <span class="seperator"><p class="price">{jsonContent.price}</p> <div><svg class="download-icon" width="8" height="8" viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg"><path fill="#475569" d="M4 6L1.5 3.5L2.2 2.775L3.5 4.075V0H4.5V4.075L5.8 2.775L6.5 3.5L4 6ZM1 8C0.725 8 0.489583 7.90208 0.29375 7.70625C0.0979167 7.51042 0 7.275 0 7V5.5H1V7H7V5.5H8V7C8 7.275 7.90208 7.51042 7.70625 7.70625C7.51042 7.90208 7.275 8 7 8H1Z"/></svg><p class="download-count">({formatNumber(jsonContent.download.count)})</p></div></span>
-                                    <Link to={jsonContent.download.source}>
+                                    <a href={jsonContent.download.source}>
                                         View Source-Code
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
             
@@ -113,7 +113,7 @@ function RenderProductPage() {
                             </div>
             
                             <div class="bugreport">
-                                <p>Found a problem?</p><Link to="/discord">Report Bug</Link>
+                                <p>Found a problem?</p><a href="/react/discord">Report Bug</a>
                             </div>
                         </div>
                     </div>

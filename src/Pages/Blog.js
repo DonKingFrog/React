@@ -65,7 +65,7 @@ function RenderBlogPage() {
 
 function blogBlock({ redirect, thumbnail, category, title, version, date }) {
     return(
-        <Link to={redirect} class="frame">
+        <a to={redirect} class="frame">
             <div class="image">
                 <img src={thumbnail} />
             </div>
@@ -82,7 +82,7 @@ function blogBlock({ redirect, thumbnail, category, title, version, date }) {
 
                 <sup>{date}</sup>
             </div>
-        </Link>
+        </a>
     );
 }
 

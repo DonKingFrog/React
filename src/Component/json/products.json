@@ -1,14 +1,14 @@
 [
 
     {
-        "redirect" : "/product/nexusdynamics",
+        "redirect" : "/react/product/nexusdynamics",
 
         "category" : "Admin Panel",
         "engine" : "Roblox",
         "price" : "FREE",
 
-        "thumbnail" : "imgs/ndthumb.jpg",
-        "logo" : "imgs/ndlogo.jpg",
+        "thumbnail" : "/react/imgs/ndthumb.jpg",
+        "logo" : "/react/imgs/ndlogo.jpg",
 
         "name" : "Nexus Dynamics",
         "author" : {
@@ -22,7 +22,7 @@
         "download" : {
             "href" : "https://create.roblox.com/store/asset/116788591431002/Nexus-Dynamics-20",
             "count" : 16000,
-            "source" : "/download/NexusDynamics2.0.rbxm"
+            "source" : "/react/download/NexusDynamics2.0.rbxm"
         },
         "details" : {
             "license" : "Mozilla Public License v2.0",
@@ -47,14 +47,14 @@
     },
 
     {
-        "redirect" : "/product/donationboard",
+        "redirect" : "/react/product/donationboard",
 
         "category" : "Donation Board",
         "engine" : "Roblox",
         "price" : "FREE",
 
-        "thumbnail" : "imgs/dbthumb.jpg",
-        "logo" : "imgs/dblogo.png",
+        "thumbnail" : "/react/imgs/dbthumb.jpg",
+        "logo" : "/react/imgs/dblogo.png",
 
         "name" : "Donation Board",
         "author" : {
@@ -68,7 +68,7 @@
         "download" : {
             "href" : "https://create.roblox.com/store/asset/17677778124/Donation-Board-30",
             "count" : 24000,
-            "source" : "/download/DonationBoard3.0.rbxm"
+            "source" : "/react/download/DonationBoard3.0.rbxm"
         },
         "details" : {
             "license" : "Mozilla Public License v2.0",
@@ -93,14 +93,14 @@
     },
 
     {
-        "redirect" : "/product/axisindicator",
+        "redirect" : "/react/product/axisindicator",
 
         "category" : "Plugin",
         "engine" : "Roblox",
         "price" : "FREE",
 
-        "thumbnail" : "imgs/aithumb.jpg",
-        "logo" : "imgs/ailogo.jpg",
+        "thumbnail" : "/react/imgs/aithumb.jpg",
+        "logo" : "/react/imgs/ailogo.jpg",
 
         "name" : "Axis Indicator",
         "author" : {
@@ -114,7 +114,7 @@
         "download" : {
             "href" : "https://create.roblox.com/store/asset/16120149836/Axis-Indicator",
             "count" : 26,
-            "source" : "/download/AxisIndicator.rbxm"
+            "source" : "/react/download/AxisIndicator.rbxm"
         },
         "details" : {
             "license" : "Mozilla Public License v2.0",
@@ -136,7 +136,7 @@
     }, 
 
     {
-        "redirect" : "/product/exploitermayhem",
+        "redirect" : "/react/product/exploitermayhem",
         
         "category" : "Admin Panel",
         "engine" : "Roblox",
@@ -144,8 +144,8 @@
         
         "discontinued": true,
 
-        "thumbnail" : "imgs/emthumb.png",
-        "logo" : "imgs/emlogo.jpg",
+        "thumbnail" : "/react/imgs/emthumb.png",
+        "logo" : "/react/imgs/emlogo.jpg",
         
         "name" : "Exploiter Mayhem",
         "author" : {
@@ -159,7 +159,7 @@
         "download" : {
             "href" : "https://create.roblox.com/store/asset/15489595904/Exploiter-Mayhem",
             "count" : 450,
-            "source" : "/download/ExploiterMayhem.rbxm"
+            "source" : "/react/download/ExploiterMayhem.rbxm"
         },
         "details" : {
             "license" : "None",
@@ -181,14 +181,14 @@
     },
 
     {
-        "redirect" : "/product/healthgui",
+        "redirect" : "/react/product/healthgui",
         
         "category" : "User Interface",
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "imgs/healthguithumb.jpg",
-        "logo" : "imgs/healthguilogo.jpg",
+        "thumbnail" : "/react/imgs/healthguithumb.jpg",
+        "logo" : "/react/imgs/healthguilogo.jpg",
 
         "name" : "HealthGui",
         "author" : {
@@ -202,7 +202,7 @@
         "download" : {
             "href" : "https://create.roblox.com/store/asset/15490705273/HealthGui",
             "count" : 47,
-            "source" : "/download/HealthGui.rbxm"
+            "source" : "/react/download/HealthGui.rbxm"
         },
         "details" : {
             "license" : "None",
@@ -223,14 +223,14 @@
     },
 
     {
-        "redirect" : "/product/mutebutton",
+        "redirect" : "/react/product/mutebutton",
         
         "category" : "User Interface",
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "imgs/mutebuttonthumb.jpg",
-        "logo" : "imgs/mutebuttonlogo.jpg",
+        "thumbnail" : "/react/imgs/mutebuttonthumb.jpg",
+        "logo" : "/react/imgs/mutebuttonlogo.jpg",
         
         "name" : "Mute Button",
         "author" : {
@@ -244,7 +244,7 @@
         "download" : {
             "href" : "https://create.roblox.com/store/asset/15490729692/Mute-Button",
             "count" : 24,
-            "source" : "/download/MuteButton.rbxm"
+            "source" : "/react/download/MuteButton.rbxm"
         },
         "details" : {
             "license" : "None",
@@ -261,14 +261,14 @@
     },
 
     {
-        "redirect" : "/product/ikcontroller",
+        "redirect" : "/react/product/ikcontroller",
         
         "category" : "Script",
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "imgs/ikcthumb.jpg",
-        "logo" : "imgs/nologo.png",
+        "thumbnail" : "/react/imgs/ikcthumb.jpg",
+        "logo" : "/react/imgs/nologo.png",
         
         "name" : "IK Controller",
         "author" : {
@@ -282,7 +282,7 @@
         "download" : {
             "href" : "https://create.roblox.com/store/asset/15495010938/IKController",
             "count" : 16,
-            "source" : "/download/IKController.rbxm"
+            "source" : "/react/download/IKController.rbxm"
         },
         "details" : {
             "license" : "None",
@@ -302,14 +302,14 @@
     },
 
     {
-        "redirect" : "/product/doors",
+        "redirect" : "/react/product/doors",
         
         "category" : "Script",
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "imgs/doorsthumb.png",
-        "logo" : "imgs/doorslogo.jpg",
+        "thumbnail" : "/react/imgs/doorsthumb.png",
+        "logo" : "/react/imgs/doorslogo.jpg",
         
         "name" : "Doors",
         "author" : {
@@ -323,7 +323,7 @@
         "download" : {
             "href" : "https://create.roblox.com/store/asset/15494974969/Doors",
             "count" : 5,
-            "source" : "/download/Doors.rbxm"
+            "source" : "/react/download/Doors.rbxm"
         },
         "details" : {
             "license" : "None",
@@ -344,14 +344,14 @@
     },
 
     {
-        "redirect" : "/product/betterbaseplate",
+        "redirect" : "/react/product/betterbaseplate",
         
         "category" : "Map",
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "imgs/betterbaseplatethumb.jpg",
-        "logo" : "imgs/betterbaseplatelogo.jpg",
+        "thumbnail" : "/react/imgs/betterbaseplatethumb.jpg",
+        "logo" : "/react/imgs/betterbaseplatelogo.jpg",
         
         "name" : "Better Baseplate",
         "author" : {
@@ -365,7 +365,7 @@
         "download" : {
             "href" : ".././Resources/Product/BetterBaseplate.rbxm",
             "count" : 5,
-            "source" : "/download/BetterBaseplate.rbxm"
+            "source" : "/react/download/BetterBaseplate.rbxm"
         },
         "details" : {
             "license" : "None",
@@ -382,14 +382,14 @@
     },
 
     {
-        "redirect" : "/product/lowpolyisland",
+        "redirect" : "/react/product/lowpolyisland",
         
         "category" : "Map",
         "engine" : "Roblox",
         "price" : "FREE",
         
-        "thumbnail" : "imgs/lpislandthumb.png",
-        "logo" : "imgs/lpislandlogo.jpg",
+        "thumbnail" : "/react/imgs/lpislandthumb.png",
+        "logo" : "/react/imgs/lpislandlogo.jpg",
         
         "name" : "Low Poly Island",
         "author" : {
@@ -403,7 +403,7 @@
         "download" : {
             "href" : ".././Resources/Product/LowPolyIsland.rbxm",
             "count" : 258,
-            "source" : "/download/LowPolyIsland.rbxm"
+            "source" : "/react/download/LowPolyIsland.rbxm"
         },
         "details" : {
             "license" : "None",
