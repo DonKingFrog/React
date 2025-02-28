@@ -9,11 +9,15 @@ import RenderNewsPost from "./Component/Newsroom.js";
 import RenderProductPage from "./Component/Products.js";
 import RenderMarketplacePage from './Pages/Marketplace.js';
 import RenderAboutPage from './Pages/About.js';
+import RenderServicesPage from "./Pages/Services.js";
 import RenderFAQPage from './Pages/FAQ.js';
+
+import Loading from "./Component/Loading.js";
 
 function HomePage() {
   return (
     <Fragment>
+      <Loading />
       <Navbar />
       <RenderHomePage />
       <Footer />
@@ -24,6 +28,7 @@ function HomePage() {
 function MarketplacePage() {
   return (
     <Fragment>
+      <Loading />
       <Navbar />
       <RenderMarketplacePage />
       <Footer />
@@ -34,6 +39,7 @@ function MarketplacePage() {
 function BlogPage() {
   return (
     <Fragment>
+      <Loading />
       <Navbar />
       <RenderBlogPage />
       <Footer />
@@ -44,6 +50,7 @@ function BlogPage() {
 function ContactPage() {
   return (
     <Fragment>
+      <Loading />
       <Navbar />
       <RenderContactPage />
       <Footer />
@@ -54,6 +61,7 @@ function ContactPage() {
 function NewsroomPage() {
   return (
     <Fragment>
+      <Loading />
       <Navbar />
       <RenderNewsPost />
       <Footer />
@@ -64,6 +72,7 @@ function NewsroomPage() {
 function ProductPage() {
   return (
     <Fragment>
+      <Loading />
       <Navbar />
       <RenderProductPage />
       <Footer />
@@ -74,6 +83,7 @@ function ProductPage() {
 function DiscordPage() {
   return(
     <Fragment>
+      <Loading />
       <meta http-equiv="refresh" content="0; URL=https://discord.gg/QBdH2p7QBr" />
     </Fragment>
   );
@@ -82,8 +92,20 @@ function DiscordPage() {
 function AboutPage() {
   return(
     <Fragment>
+      <Loading />
       <Navbar />
       <RenderAboutPage />
+      <Footer />
+    </Fragment>
+  )
+}
+
+function ServicesPage() {
+  return(
+    <Fragment>
+      <Loading />
+      <Navbar />
+      <RenderServicesPage />
       <Footer />
     </Fragment>
   )
@@ -92,6 +114,7 @@ function AboutPage() {
 function FAQPage() {
   return(
     <Fragment>
+      <Loading />
       <Navbar />
       <RenderFAQPage />
       <Footer />
@@ -108,5 +131,6 @@ export {
   ProductPage,
   DiscordPage,
   AboutPage,
+  ServicesPage,
   FAQPage,
 }

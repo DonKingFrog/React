@@ -76,6 +76,10 @@
     }
     
     
+    .page-contact .email {
+        display: none;
+    }
+
     .page-contact .inputbox {
         position: relative;
         width: 100%;
@@ -605,7 +609,10 @@
     }
     
     
-    
+    .page-contact .email {
+        display: none;
+    }
+
     .page-contact .inputbox {
         position: relative;
         width: 500px;

@@ -47,12 +47,14 @@ body {
 }
 
 #preloader {
-    background: #000 url(/public/imgs/loadingCircle.gif) no-repeat center center;
-    background-size: 250px;
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 100%;
-    z-index: 100;
+
+    background: #000 url("../public/imgs/loadingCircle.gif") no-repeat center center;
+    background-size: 250px;
+
+    z-index: 500;
 }
 
 #preloader.loaded {
@@ -195,3 +197,38 @@ body {
     --footerText: #333333;
 }
 
+
+
+
+#format h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+#format h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#format hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin: 1em 0;
+}
+
+#format pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#format .bold {
+    font-weight: bold;
+}
+
+#format .italic {
+    font-weight: bold;
+}

@@ -13,8 +13,8 @@ function Navbar() {
     })
 
     return (
-        <header class="navbar">
-            <div class="left">
+        <header className={`navbar ${!navbar ? "collapsed" : ""}`}>
+            <div className="left">
                 <a href="/react/">
                     <img src="/react/logo.png" />
                     <h1>DEV EQUIP</h1>
@@ -25,18 +25,16 @@ function Navbar() {
                 </button>
             </div>
 
-            <div class={`center ${!navbar ? "collapsed" : ""}`}>
+            <div className={`center ${!navbar ? "collapsed" : ""}`}>
                 <a href="/react/about">About</a>
                 <a href="/react/marketplace">Marketplace</a>
                 <a href="/react/blog">Blog</a>
-                <a href="/react/contact">Contact</a>
+                <a href="/react/services">Services</a>
             </div>
 
-            <div class={`right ${!navbar ? "collapsed" : ""}`}>
-                <a href="/react/discord" class="redirect">Community</a>
-                <a href="https://patreon.com/DonKingFrog" class="button">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M489.7 153.8c-.1-65.4-51-119-110.7-138.3C304.8-8.5 207-5 136.1 28.4C50.3 68.9 23.3 157.7 22.3 246.2C21.5 319 28.7 510.6 136.9 512c80.3 1 92.3-102.5 129.5-152.3c26.4-35.5 60.5-45.5 102.4-55.9c72-17.8 121.1-74.7 121-150z"/></svg>
-                    Patreon
+            <div className={`right ${!navbar ? "collapsed" : ""}`}>
+                <a href="/react/contact" className="button">
+                    Contact Us
                 </a>
             </div>
         </header>

@@ -133,6 +133,7 @@ body {
         pointer-events: none; 
     }
 
+    .page-faq #help .faq svg { pointer-events: none  }
     .page-faq #help .faq .active { background-color: #eaeaea; }
     .page-faq #help .faq p b { font-weight: 600 }
     .page-faq #help .faq p a { color: var(--accent) }
@@ -222,6 +223,7 @@ body {
         height: 20px;
     }
     
+    .page-faq #help .faq svg { pointer-events: none  }
     .page-faq #help .faq .active { background-color: #eaeaea; }
     .page-faq #help .faq p { text-align: left; display: none; pointer-events: none; }
     .page-faq #help .faq p b { font-weight: 600 }

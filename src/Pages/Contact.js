@@ -51,16 +51,16 @@ function RenderContactPage() {
     }
 
     return (
-        <div class="page-contact">
-                <div class="contact">
-                    <div class="wrapper">
+        <div className="page-contact">
+                <div className="contact">
+                    <div className="wrapper">
                         <h1>Contact Us</h1>
                         <p>We'll get back to you as soon as possible.</p>
                     </div>
 
-                    <div class="container">
-                        <button class="inputbox name">
-                            <div class="content">
+                    <div className="container">
+                        <button className="inputbox name">
+                            <div className="content">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>
                                 <p>Full Name</p>
                             </div>
@@ -68,8 +68,8 @@ function RenderContactPage() {
                             <input type="text" onChange={toggleName} />
                         </button>
 
-                        <button class="inputbox email">
-                            <div class="content">
+                        <button className="inputbox email">
+                            <div className="content">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
                                 <p>Email</p>
                             </div>
@@ -77,15 +77,15 @@ function RenderContactPage() {
                             <input type="email" onChange={toggleEmail} />
                         </button>
 
-                        <button class="dropdownbox subject" onClick={toggleDropdown}>
-                            <div class="content">
+                        <button className="dropdownbox subject" onClick={toggleDropdown}>
+                            <div className="content">
                                 {subjectInfo[subject]}<p>Subject</p>
-                                <svg class="caret" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg>
+                                <svg className="caret" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg>
                             </div>
 
-                            <p class="input">{subject}</p>
+                            <p className="input">{subject}</p>
 
-                            <div class="dropdown">
+                            <div className="dropdown">
                                 <button id="Support" onClick={() => setSubject("Support")}>
                                     {subjectInfo["Support"]}
                                     <p>Support</p>
@@ -109,13 +109,13 @@ function RenderContactPage() {
                             </div>
                         </button>
 
-                        <textarea class="message" placeholder="Type your message here…"></textarea>
+                        <textarea className="message" placeholder="Type your message here…"></textarea>
 
-                        <button class="send" onClick={() => {
+                        <button className="send" onClick={() => {
                                 var email = document.querySelector(".container .email input").textContent;
                                 var subject = `Author: ${document.querySelector(".container .name input").value} · ${document.querySelector(".container .subject .input").textContent}`;
                                 var body = document.querySelector(".container .message").value;
-                                var mailto_link = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent("thedevequip@gmail.com") + '&su=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+                                var mailto_link = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent("info@devequip.com") + '&su=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
                                 window.open(mailto_link, '_blank');
                             }}>
                             <p>Send Message</p>
@@ -124,13 +124,13 @@ function RenderContactPage() {
                     </div>
                 </div>
             
-                <h1 class="or">OR</h1>
+                <h1 className="or">OR</h1>
 
-                <div class="discord">
+                <div className="discord">
                     <h1>Join Our Discord</h1>
                     <p>You may be able to get attention faster through our Discord server by joining below</p>
                     <a href="/react/discord">
-                        <button class="join">
+                        <button className="join">
                             <p>Join</p>
                         </button>
                     </a>

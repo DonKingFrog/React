@@ -1,11 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './colors.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HomePage, MarketplacePage, BlogPage, ContactPage, NewsroomPage, ProductPage, DiscordPage, AboutPage, FAQPage } from './App';
+import { HomePage, MarketplacePage, BlogPage, ContactPage, NewsroomPage, ProductPage, DiscordPage, AboutPage, ServicesPage, FAQPage } from './App';
 import reportWebVitals from './reportWebVitals';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
@@ -18,6 +17,7 @@ root.render(
       <Route path="/newsroom/:postId" element={<NewsroomPage />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/about" element={<AboutPage />} />
+      <Route path="/services" element={<ServicesPage />} />
       <Route path="/faq" element={<FAQPage />} />
       <Route path="/discord" element={<DiscordPage />} />
     </Routes>
