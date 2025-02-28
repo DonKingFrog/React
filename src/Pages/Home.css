@@ -152,8 +152,8 @@ header .right .redirect {
         height: auto;
         padding: 25px 25px;
     
-        background-color: var(--heroBoxBackground);
-        border: 1px solid var(--heroBoxBorder);
+        background: transparent;
+        border: none;
         border-radius: 12px;
     
         text-align: center;
