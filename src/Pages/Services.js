@@ -21,7 +21,7 @@ function RenderServicesPage() {
 
     return (
         <Fragment>
-            <div className="page-home">
+            <div className="page-services">
                 <section id="hero">
                     <div className="main verticle-wrapper">
                         <h1>Explore our <span>Services</span></h1>
