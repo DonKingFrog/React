@@ -7,10 +7,22 @@ function Loading() {
             if (preloader) { preloader.classList.add("loaded") };
         };
 
-        window.addEventListener("load", handleLoad);
+        function isMobileDevice() {
+            return /Mobi|Android/i.test(navigator.userAgent);
+        }
+        
+        if (isMobileDevice()) {
+            setTimeout(() => {
+                handleLoad()
+            }, 500);
+        } else {
+            window.addEventListener("load", handleLoad);
+        }
 
         return () => {
-            window.removeEventListener("load", handleLoad);
+            if (!isMobileDevice()) {
+                window.removeEventListener("load", handleLoad);
+            }
         };
     }, [])
     return (
